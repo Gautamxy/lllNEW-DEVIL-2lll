@@ -1,6 +1,0 @@
-run = "npm start"
-entrypoint = "main.sh"
-
-[deployment]
-deploymentTarget = "cloudrun"
-run = ["sh", "-c", "node index.js"]
