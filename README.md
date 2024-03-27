@@ -31,9 +31,9 @@
 			<a href="https://replit.com/@CliffvincentTor" style="color: green;">@Ayanchoudhuri🔥</a>
 				<br>
 	My Facebook Account ->
-	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: green;">Yazky🚀</a></h3></div>
+	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">Ayan🚀</a></h3></div>
 
-<img align="center" src="https://i.ibb.co/XVnmz7j/1000002116.png"/>
+<img align="center" src="https://i.imgur.com/foQHycD.jpeg"/>
 
 
 🔹ARIYAN卝 চৌধুরীヅ
@@ -53,4 +53,4 @@
 
 # THANK YOU
 
-# 🏎️🏎️🏎️🏎️🏎️🏎️🏎️
+# 🏎️🏎️🏎️🏎️🏎️🏎️
