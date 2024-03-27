@@ -25,3 +25,20 @@
 - [📸 **Screenshots**](#-screenshots)
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
+
+
+# Editing AYAN CHOWDHURY😘
+
+# GOATBOT real owner AYAN🙂
+
+# Everyone run this AYANOT for fun
+
+# If there is any error, I will fix it by knocking on Facebook
+
+# https://www.facebook.com/AYAN.BABY.LOVE.YOU
+
+# I hope you enjoy
+
+# THANK YOU
+
+# 🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️
