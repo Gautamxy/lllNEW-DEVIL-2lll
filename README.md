@@ -29,7 +29,7 @@
 
 # Editing AYAN CHOWDHURY😘
 
-# GOATBOT real owner AYAN🙂
+# AYAN-SUPPER-ROBOT real owner AYAN CHOWDHURY🙂
 
 # Everyone run this AYANOT for fun
 
@@ -41,4 +41,4 @@
 
 # THANK YOU
 
-# 🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️
+# 🏎️🏎️🏎️🏎️🏎️🏎️🏎️
