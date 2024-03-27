@@ -2,7 +2,7 @@ module.exports.config = {
   name: "prefix",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "Mr Chand",
   description: "See the bot prefix",
   commandCategory: "For admin",
   usages: "out prefix",
