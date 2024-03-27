@@ -24,10 +24,10 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
   switch (option) {
     case "warn":
-      console.log(chalk.bold.hex(randomColor()).bold(" [ 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ➥] ") + chalk.bold.hex("#8B8878").bold(data)+chalk.bold.hex("FF00DD")("\n✦────────────────────────────────────────✦" ))
+      console.log(chalk.bold.hex(randomColor()).bold(" [ 𝐀𝐘𝐀𝐍 𝐕3 ➥] ") + chalk.bold.hex("#8B8878").bold(data)+chalk.bold.hex("FF00DD")("\n✦────────────────────────────────────────✦" ))
       break;
     case "error":
-    console.log(chalk.bold.hex(randomColor()).bold(" [♧ 𝐄𝐑𝐑𝐎𝐑 ♧  ] ") + data+chalk.bold.hex("5EFF00")("\n✦────────────────────────────────────────✦" ));
+    console.log(chalk.bold.hex(randomColor()).bold(" [♧ 𝐀𝐘𝐀𝐍 ♧  ] ") + data+chalk.bold.hex("5EFF00")("\n✦────────────────────────────────────────✦" ));
       break;
     default:
       console.log(chalk.bold.hex(randomColor()).bold(" [☾︎☛ 𝐃𝐎𝐍𝐄 ☚☽︎] ") + chalk.bold.hex(randomColor()).bold(data) +chalk.bold.hex("FFF0000")("\n✦────────────────────────────────────────✦" ));
