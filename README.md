@@ -26,11 +26,11 @@
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
 
-- <p align="center">
-		<img align="center" alt="PNG" src="[https://i.imgur.com/foQHycD.jpeg](https://i.imgur.com/foQHycD.jpeg)"/>
-<h1 align='center'>
-🚀 What's in this git?
-</h1></p>
+src="https://i.postimg.cc/8kqWYsXs/Screenshot-20231122-171534-2.png" width="50" style="margin-right: 10px;"></a>
+</p>
+<h5 align="center">
+🔹ARIYAN卝 চৌধুরীヅ
+</h5>
 
 
 # Editing AYAN CHOWDHURY😘
