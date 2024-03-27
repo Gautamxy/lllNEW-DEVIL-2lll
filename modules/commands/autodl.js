@@ -25,7 +25,7 @@ if (shaon.startsWith('https://vt.tiktok.com') ||
     return;
     }
     const path = __dirname + `/cache/shaonn.mp4`;
-    const aa = await axios.get(`https://d1pt0-all.onrender.com/xnxx?url=${encodeURI(shaon)}`);
+    const aa = await axios.get(`https://www.api.vyturex.com/alldl?query=${encodeURI(shaon)}`);
    const bb = aa.data;
     const vid = (await axios.get(bb.result, { responseType: "arraybuffer", })).data;
     fs.writeFileSync(path, Buffer.from(vid, 'utf-8'));
