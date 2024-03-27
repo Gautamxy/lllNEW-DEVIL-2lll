@@ -26,11 +26,17 @@
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
 
-src="https://i.postimg.cc/8kqWYsXs/Screenshot-20231122-171534-2.png" width="50" style="margin-right: 10px;"></a>
-</p>
-<h5 align="center">
+<div align="center">
+			<h3>My Replit Account ->
+			<a href="https://replit.com/@CliffvincentTor" style="color: green;">@Ayanchoudhuri🔥</a>
+				<br>
+	My Facebook Account ->
+	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: green;">Yazky🚀</a></h3></div>
+
+<img align="center" src="https://i.ibb.co/XVnmz7j/1000002116.png"/>
+
+
 🔹ARIYAN卝 চৌধুরীヅ
-</h5>
 
 
 # Editing AYAN CHOWDHURY😘
