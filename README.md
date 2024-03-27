@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/oC6vjbr.jpeg" alt="banner">
+<img src="https://i.imgur.com/DCO6mCi.jpeg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> AYAN ROBOT - Bot Chat Messenger</h1>
 
 <p align="center">
@@ -43,7 +43,7 @@
 
 # AYAN-SUPPER-ROBOT real owner AYAN CHOWDHURY🙂
 
-# Everyone run this AYANOT for fun
+# Everyone run this AYAN-ROBOT for fun
 
 # If there is any error, I will fix it by knocking on Facebook
 
