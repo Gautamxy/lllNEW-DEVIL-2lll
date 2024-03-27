@@ -1,8 +1,8 @@
 module.exports.config = {
-    name: "pinterest",
+    name: "pic",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "TEAM-ATF",
+    credits: "AYAN",
     description: "Image search",
     commandCategory: "Search",
     usages: "[Text]",
