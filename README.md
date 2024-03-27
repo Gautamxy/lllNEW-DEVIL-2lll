@@ -26,6 +26,12 @@
 - [✨ **Copyright (C)**](#-copyright-c)
 - [📜 **License**](#-license)
 
+- <p align="center">
+		<img align="center" alt="PNG" src="[https://i.imgur.com/foQHycD.jpeg](https://i.imgur.com/foQHycD.jpeg)"/>
+<h1 align='center'>
+🚀 What's in this git?
+</h1></p>
+
 
 # Editing AYAN CHOWDHURY😘
 
