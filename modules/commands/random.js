@@ -2,9 +2,9 @@ module.exports.config = {
   name: "random",
   version: "1.0.",
   hasPermssion: 0,
-  credits: "NAYAN",/
-  description: "rendom video",
-  commandCategory: "admin",
+  credits: "NAYAN",//full credit NAYAN
+  description: "rendom video for you",
+  commandCategory: "rendom",
   usages: "video",
   cooldowns: 0
 };
