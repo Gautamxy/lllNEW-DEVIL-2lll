@@ -1,13 +1,12 @@
 module.exports.config = {
   name: "random",
-	version: "0.0.2",
-	permission: 0,
-  prefix: true,
-	credits: "Nayan",
-	description: "random video",
-	commandcategory: "admin",
-	usages: "",
-    cooldowns: 5,
+  version: "1.0.",
+  hasPermssion: 0,
+  credits: "NAYAN",/
+  description: "rendom video",
+  commandCategory: "admin",
+  usages: "video",
+  cooldowns: 0
 };
 
 
