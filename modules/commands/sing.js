@@ -1,13 +1,12 @@
 module.exports.config = {
- name: "sing",
- version: "2.0.4",
- role: 0,
- credits: "Grey",
- description: "Play a song",
- aliases: ["sing"],
-cooldown: 0,
-hasPrefix: false,
-	usage: "",
+  name: "sing",
+  version: "1.0.",
+  hasPermssion: 0,
+  credits: "AYAN CHOWDHURY",//dont change credit😠
+  description: "experts",
+  commandCategory: "play music",
+  usages: "send music",
+  cooldowns: 0
 };
 
 module.exports.run = async ({ api, event }) => {
