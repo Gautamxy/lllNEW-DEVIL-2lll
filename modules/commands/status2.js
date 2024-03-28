@@ -1,12 +1,11 @@
 module.exports.config = {
-module.exports.config = {
   name: "status2",
   version: "1.0.",
   hasPermssion: 0,
   credits: "AYAN CHOWDHURY",//dont change credit😠
-  description: "status",
+  description: "status2",
   commandCategory: "video",
-  usages: "[AYAN-status2]",
+  usages: "...",
   cooldowns: 0
 };
 
