@@ -1,13 +1,14 @@
 module.exports.config = {
   name: "random",
-  version: "1.0.",
-  hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",//dont change credit😠
-  description: "rendom video",
-  commandCategory: "ayan random",
-  usages: "[AYAN random]",
-  cooldowns: 0
-}; 
+	version: "0.0.2",
+	permission: 0,
+  prefix: true,
+	credits: "Nayan",
+	description: "random video",
+	commandcategory: "admin",
+	usages: "",
+    cooldowns: 5,
+};
 
 
 
