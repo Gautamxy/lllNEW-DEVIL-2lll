@@ -1,17 +1,12 @@
- module.exports.config = {
-    name: "bing",
-    version: "1.0.0",
-    hasPermssion: 2,
-    credits: "NAYAN/AYAN",//full credit NAYAN//edit AYAN
-    description: "Apply code from buildtooldev and pastebin",
-    commandCategory: "auto",
-    usages: "bing text to reply image",
-    cooldowns: 0,
-    dependencies: {
-        "pastebin-api": "",
-        "cheerio": "",
-        "request": ""
-    }
+module.exports.config = {
+  name: "bing",
+  version: "1.0.",
+  hasPermssion: 0,
+  credits: "NAYAN/AYAN",//full credit NAYAN / Edit AYAN
+  description: "image",
+  commandCategory: "photo",
+  usages: "text to image",
+  cooldowns: 0
 };
 
    languages: {
