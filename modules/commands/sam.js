@@ -2,18 +2,19 @@ const axios = require('axios');
 const fs = require('fs');
 
 module.exports.config = {
-  name: "sam",
+  name: "janu",
   version: "3.8",
   hasPermission: 0,
-  credits: "AYAN CHOUDHURY", //don't change credits😕
+  credits: "AYAN CHOWDHURY", 
   description: "sim",
+  useprefix: true,
   commandCategory: "sim simi fun",
-  usages: "sam [your query]",
+  usages: "janu [your query]",
   cooldowns: 3,
 };
 
 module.exports.handleEvent = async function ({ api, event }) {
-  if (!(event.body.indexOf("sam") === 0 || event.body.indexOf("sam") === 0)) return;
+  if (!(event.body.indexOf("janu") === 0 || event.body.indexOf("Janu") === 0)) return;
   const args = event.body.split(/\s+/);
   args.shift();
   const q = args.join(" "); 
@@ -29,7 +30,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 
   } catch (error) {
     console.error(error);
-    api.sendMessage('Hello i am sam robot.\n \nHow can i assist you?', event.threadID, event.messageID);
+    api.sendMessage('হুম বেবি বলো..!!😘🍼', event.threadID, event.messageID);
   }
 };
 
