@@ -1,7 +1,3 @@
-const axios = require('axios');
-const path = require('path');
-const fs = require('fs');
-
 module.exports.config = {
   name: "album",
   version: "1.0.",
@@ -9,253 +5,91 @@ module.exports.config = {
   credits: "AYAN CHOWDHURY",//dont change credit😠
   description: "rendom video for you",
   commandCategory: "rendom",
-  usages: "Only or add [cartoon/photo/lofi/sad/islamic/funny/horny/anime/aesthetic/cat/lyrics/love/sigma]",
+  usages: "[AYAN ALBUM]",
   cooldowns: 0
-};
+}; module.exports.run = async function({  event: e,
+  api: a,
+  args: n
+}) {
+  if (!n[0]) return a.sendMessage("╭──────•♥︎𝘼𝙔𝘼𝙉 𝙖𝙡𝙗𝙪𝙢☺︎︎•──────╮\n\n🖤━━━━━━💟𝙰𝙻𝙱𝚄𝙼 𝚅𝙸𝙳𝙴𝙾💟━━━━━━🖤 \n!\n!➤1 𝙸𝚂𝙻𝙰𝙼 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤2 𝙰𝙽𝙸𝙼𝙴 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤3 𝚂𝙷𝙰𝙸𝚁𝙸 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤4 𝚂𝙷𝙾𝚁𝚃 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤5 𝚂𝙰𝙳𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤6 𝚂𝚃𝙰𝚃𝚄𝚂 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤7 𝙵𝙾𝙾𝚃𝙱𝙰𝙻𝙻 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤8 𝙵𝚄𝙽𝙽𝚈 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤9 𝙻𝙾𝚅𝙴 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤10 𝙲𝙿𝙻 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤11 𝙱𝙰𝙱𝚈 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤12 𝙵𝚁𝙴𝙴 𝙵𝙸𝚁𝙴 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤13 𝙻𝙾𝙵𝙸 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤14 𝙷𝙰𝙿𝙿𝚈 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤15 𝙷𝚄𝙼𝙰𝙸𝚈𝚄𝙽 𝚂𝙸𝚁 𝚅𝙸𝙳𝙴𝙾◄┈╯\n🖤━━━━━━🫦𝙷𝙾𝚃 𝚅𝙸𝙳𝙴𝙾━━━━━━🖤\n!➤16 𝚂𝙴𝚇 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤17 𝙷𝙾𝚁𝙽𝚈 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤18 𝙸𝚃𝙴𝙼 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤19 𝙷𝙾𝚃 𝚅𝙸𝙳𝙴𝙾◄┈╯\n!\n!➤20 𝙲𝙰𝙿𝙲𝚄𝚃 𝚅𝙸𝙳𝙴𝙾◄┈╯\n━━━━━━━━━━━━━━━━━━━━━\n𝙾𝚆𝙽𝙴𝚁:♥︎𝘼𝙔𝘼𝙉 𝙖𝙡𝙗𝙪𝙢☺︎︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n𝙰 𝙿 𝙸//𝘼𝙔𝘼𝙉\n━━━━━━━━━━━━━━━━━━━━━\n╰──────•♥𝘼𝙔𝘼𝙉•──────╯\n\nTell me how many video numbers you want to see by replaying this message", e.threadID, ((a, n) => {
+    global.client.handleReply.push({
+      name: this.config.name,
+      messageID: n.messageID,
+      author: e.senderID,
+      type: "create"
+    })
+  }), e.messageID)
+  }, module.exports.handleReply = async ({
+  api: e,
+  event: a,
+  client: n,
+  handleReply: t,
+  Currencies: s,
+  Users: i,
+  Threads: o
+  }) => {
+  var { p, h } = linkanh();
 
-module.exports.run = async function ({ api, event, args}) {
-  if (!args[0]){
-    { api.setMessageReaction("😘", event.messageID, (err) => {}, true);
-    }
-  const albumOptions = [
-    "𝗙𝘂𝗻𝗻𝘆 𝘃𝗶𝗱𝗲𝗼",
-     "𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝘃𝗶𝗱𝗲𝗼",
-     "𝗦𝗮𝗱 𝘃𝗶𝗱𝗲𝗼",
-     "𝗔𝗻𝗶𝗺𝗲 𝘃𝗶𝗱𝗲𝗼",
-     "𝗖𝗮𝗿𝘁𝗼𝗼𝗻 𝘃𝗶𝗱𝗲𝗼",
-     "𝗟𝗼𝗙𝗶 𝗩𝗶𝗱𝗲𝗼",
-     "𝗛𝗼𝗿𝗻𝘆 𝘃𝗶𝗱𝗲𝗼",
-     "𝗖𝗼𝘂𝗽𝗹𝗲 𝗩𝗶𝗱𝗲𝗼",
-     "𝗙𝗹𝗼𝘄𝗲𝗿 𝗩𝗶𝗱𝗲𝗼",
-    "𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗩𝗶𝗱𝗲𝗼"
-  ];
-  const message = "♥︎𝙎𝙚𝙡𝙡𝙚𝙩 𝙣𝙗 𝘼𝙔𝘼𝙉 𝙖𝙡𝙗𝙪𝙢☺︎︎\n"+"✿━━━━━━━━━━━━━━━━━━━━━━━✿\n"+ albumOptions.map((option, index) => `${index + 1}. ${option} 🐤`).join("\n")+"\n✿━━━━━━━━━━━━━━━━━━━━━━━✿";
+  if ("create" === t.type) {
+    const n = (await p.get(h)).data.data;
+    const shaon = (await p.get(h)).data.shaon;
+    const ls = (await p.get(h)).data.count;
+    let t = (await p.get(n, {
+      responseType: "stream"
+    })).data;
+    return e.sendMessage({
+      body: `🟡${shaon}\nVideo Number:${ls}\nAPI ♥︎𝘼𝙔𝘼𝙉 𝙖𝙡𝙗𝙪𝙢☺︎︎`,
+      attachment: t
+    }, a.threadID, a.messageID)
+  }
 
-  await api.sendMessage({body: message,},event.threadID,(error, info) => {
-  global.client.handleReply.push({
-    name: this.config.name,
-    type: 'reply',
-    messageID: info.messageID,
-    author: event.senderID,
-    link: albumOptions
-  })},event.messageID);
-}else if (args[0] === "2"){
-    { api.setMessageReaction("😘", event.messageID, (err) => {}, true);
+  function linkanh() {
+        const p = require("axios");
+        if ("1" == a.body)
+            var h = "https://noobs-apihouse.onrender.com/dipto/album/islam";
+        else if ("2" == a.body)
+         var   h = "https://noobs-apihouse.onrender.com/dipto/album/anime";
+        else if ("3" == a.body)
+         var   h = "https://noobs-apihouse.onrender.com/dipto/album/shairi";
+        else if ("4" == a.body)
+          var  h = "https://noobs-apihouse.onrender.com/dipto/album/short";
+        else if ("5" == a.body)
+          var  h = "https://noobs-apihouse.onrender.com/dipto/album/sad";
+        else if ("6" == a.body)
+          var  h = "https://noobs-apihouse.onrender.com/dipto/album/status";
+        else if ("7" == a.body)
+          var  h = "https://noobs-apihouse.onrender.com/dipto/album/football";
+        else if ("8" == a.body)
+          var  h = "https://noobs-apihouse.onrender.com/dipto/album/funny";
+        else if ("9" == a.body)
+         var   h = "https://noobs-apihouse.onrender.com/dipto/album/love";
+        else if ("10" == a.body)
+         var  h = "https://noobs-apihouse.onrender.com/dipto/album/cpl";
+          else if ("11" == a.body)
+           var  h = "https://noobs-apihouse.onrender.com/dipto/album/baby";
+          else if ("12" == a.body)
+          var  h = "https://noobs-apihouse.onrender.com/dipto/album/kosto";
+         else if ("13" == a.body)
+         var  h = "https://noobs-apihouse.onrender.com/dipto/album/lofi";
+         else if ("14" == a.body)
+         var  h = "https://noobs-apihouse.onrender.com/dipto/album/happy";
+         else if ("15" == a.body)
+         var  h = "https://noobs-apihouse.onrender.com/dipto/album/humaiyun";
+           else if ("16" == a.body)
+         var  h =
+"https://noobs-apihouse.onrender.com/dipto/album/sex";
+    else if ("17" == a.body)
+         var  h =
+"https://noobs-apihouse.onrender.com/dipto/album/horny";
+    else if ("18" == a.body)
+         var  h =
+"https://noobs-apihouse.onrender.com/dipto/album/item";
+    else if ("19" == a.body)
+         var  h =
+"https://noobs-apihouse.onrender.com/dipto/album/hot";
+    else if ("20" == a.body)
+         var  h =
+"https://noobs-apihouse.onrender.com/dipto/album/capcut";
+        return { p, h };
     }
-  const albumOptions = [
-    "𝗦𝗶𝗴𝗺𝗮 𝗥𝘂𝗹𝗲",
-    "𝗟𝘆𝗿𝗶𝗰𝘀 𝗩𝗶𝗱𝗲𝗼",
-    "𝗖𝗮𝘁 𝗩𝗶𝗱𝗲𝗼",
-    "𝗥𝗮𝗻𝗱𝗼𝗺 𝗣𝗵𝗼𝘁𝗼",
-    "𝗙𝗿𝗲𝗲 𝗙𝗶𝗿𝗲 𝘃𝗶𝗱𝗲𝗼",
-    "18+ 𝘃𝗶𝗱𝗲𝗼",
-    "𝗙𝗼𝗼𝘁𝗕𝗮𝗹𝗹 𝘃𝗶𝗱𝗲𝗼",
-    "𝗚𝗶𝗿𝗹 𝘃𝗶𝗱𝗲𝗼"
-  ];
-    const message = "♥︎𝙎𝙚𝙡𝙡𝙚𝙩 𝙣𝙗 𝘼𝙔𝘼𝙉 𝙖𝙡𝙗𝙪𝙢☺︎︎\n"+"✿━━━━━━━━━━━━━━━━━━━━━━━✿\n"+ albumOptions.map((option, index) => `${index + 11}. ${option} 🐤`).join("\n")+"\n✿━━━━━━━━━━━━━━━━━━━━━━━✿";
-
-  await api.sendMessage({body: message,},event.threadID,(error, info) => {
-  global.client.handleReply.push({
-    name: this.config.name,
-    type: 'reply',
-    messageID: info.messageID,
-    author: event.senderID,
-    link: albumOptions
-  })},event.messageID);
-  }
-//------------Video Add--------------//
-const validCommands = ['cartoon', 'photo', 'lofi', 'sad', 'islamic','funny','horny','anime','love','baby','lyrics','sigma','photo','aesthetic','cat','flower','ff','sex','girl','football'];
-  { api.setMessageReaction("✅", event.messageID, (err) => {}, true);
-  }
-  if (args[0] === 'list'){
- try {
-   const lRes = await axios.get(`https://noobs-apihouse.onrender.com/dipto/album?list=dipto`);
-const data = lRes.data;
-     api.sendMessage(`🖤 𝗧𝗼𝘁𝗮𝗹 𝘃𝗶𝗱𝗲𝗼 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗶𝗻 𝗮𝗹𝗯𝘂𝗺 🩵\n\n${data.data}`, event.threadID, event.messageID);
- } catch (error) {
-api.sendMessage(`${error}`,event.threadID,event.messageID)
- }
-  }
-const d1 = args[1]?args[1].toLowerCase() : '' ;
- if (!d1 || !validCommands.includes(d1))return;
-    if (!event.messageReply || !event.messageReply.attachments) return;
-    const attachment = event.messageReply.attachments[0].url;
-    const URL = attachment;
-    let query;
-    switch (d1) {
-        case 'cartoon':
-            query = 'addVideo';
-            break;
-        case 'photo':
-            query = 'addPhoto';
-            break;
-        case 'lofi':
-            query = 'addLofi';
-            break;
-        case 'sad':
-            query = 'addSad';
-            break;
-        case 'funny':
-            query = 'addFunny';
-            break;
-        case 'islamic':
-            query = 'addIslamic';
-            break;
-        case 'horny':
-            query = 'addHorny';
-            break;
-        case 'anime':
-            query = 'addAnime';
-            break;
-        case 'love':
-            query = 'addLove';
-            break;
-        case 'lyrics':
-            query = 'addLyrics';
-            break;
-        case 'flower':
-            query = 'addBaby';
-            break;
-        case 'photo':
-            query = 'addPhoto';
-            break;
-        case 'sigma':
-            query = 'addSigma';
-            break;
-      case 'aesthetic':
-        query = 'addAesthetic';
-        break;
-      case 'cat':
-        query = 'addCat';
-        break;
-      case 'ff':
-         query = 'addFf';
-          break;
-         case 'sex':
-          query = 'addSex';
-         break;
-          case 'football':
-           query = 'addFootball';
-         break;
-        case 'girl':
-            query = 'addGirl';
-        break;
-         default:
-            break;
-    }
-    try {
-        const response = await axios.get(`https://noobs-apihouse.onrender.com/dipto/album?url=${encodeURIComponent(URL)}`);
-        const imgurLink = response.data.data;
-        const fileExtension = path.extname(imgurLink);
-   let query2;
-        if (fileExtension === '.jpg' || fileExtension === '.jpeg' || fileExtension === '.png') {query2 = 'addPhoto';} 
-else if (fileExtension === '.mp4') {
-  query2 = query;} else {
-            api.sendMessage('Invalid file format.', event.threadID, event.messageID);
-            return;
-        }
-        const svRes = await axios.get(`https://noobs-apihouse.onrender.com/dipto/album?add=${query2}&url=${imgurLink}`);
-const data = svRes.data;
-     //   console.log(data);
-        api.sendMessage(`✅ | ${data.data}\n\n🔰 | ${data.data2}`, event.threadID, event.messageID);
-    } catch (error) {console.error('Error:', error);api.sendMessage(`Failed to convert image.\n${error}`, event.threadID, event.messageID);
-}
-};
-module.exports.handleReply = async function ({ api, event, handleReply }) {
- const admin = "61552819703988";
- api.unsendMessage(handleReply.messageID);
-  if (event.type == "message_reply") {
-  const reply = parseInt(event.body);
-  if (isNaN(reply)) {
-    return api.sendMessage("Please reply with either 1 - 13", event.threadID, event.messageID);
-  }
-  let query;
-  let cp;
-  if (reply === 1) {
-    query = "funny";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗙𝘂𝗻𝗻𝘆 𝘃𝗶𝗱𝗲𝗼 <🤣";
-  } else if (reply === 2) {
-    query = "islamic";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝘃𝗶𝗱𝗲𝗼 <😇";
-  }else if (reply === 3) {
-      query = "sad";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗦𝗮𝗱 𝘃𝗶𝗱𝗲𝗼 <🥺";
-    }else if (reply === 4) {
-      query = "anime";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗮𝗻𝗶𝗺 𝘃𝗶𝗱𝗲𝗼 <😘";
-    }else if (reply === 5) {
-      query = "video";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗖𝗮𝗿𝘁𝗼𝗼𝗻 𝘃𝗶𝗱𝗲𝗼 <😇";
-    }else if (reply === 6) {
-      query = "lofi";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗟𝗼𝗳𝗶 𝘃𝗶𝗱𝗲𝗼 <😇";
-    }
-    else if (reply === 7 && event.senderID == admin) {
-    query = "horny";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗛𝗼𝗿𝗻𝘆 𝘃𝗶𝗱𝗲𝗼 <🥵";
-    }
-      else if (reply === 7 && event.senderID !== admin) {
-    return api.sendMessage("Hop beda luccha ",event.threadID, event.messageID);
-      }
-    else if (reply === 8) {
-    query = "love";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗟𝗼𝘃𝗲 𝘃𝗶𝗱𝗲𝗼 <😍";
-    }
-    else if (reply === 9) {
-    query = "baby";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗙𝗹𝗼𝘄𝗲𝗿 𝘃𝗶𝗱𝗲𝗼 < 🌷🌸";
-    }
-    else if (reply === 10) {
-    query = "aesthetic";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗔𝗲𝘀𝘁𝗵𝗲𝘁𝗶𝗰 𝗩𝗶𝗱𝗲𝗼 <😙";
-       }
-    else if (reply === 11) {
-    query = "sigma";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗦𝗶𝗴𝗺𝗮 𝘃𝗶𝗱𝗲𝗼 <🐤";
-    }
-    else if (reply === 12) {
-    query = "lyrics";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗟𝘆𝗿𝗶𝗰𝘀 𝘃𝗶𝗱𝗲𝗼 <🥰";
-    }
-    else if (reply === 13) {
-    query = "cat";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗖𝗮𝘁 𝗩𝗶𝗱𝗲𝗼 <😙";
-      }
-    else if (reply === 14) {
-    query = "photo";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗥𝗮𝗻𝗱𝗼𝗺 𝗣𝗵𝗼𝘁𝗼 <😙";
-    }else if (reply === 15) {
-      query = "ff";
-      cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗙𝗿𝗲𝗲 𝗙𝗶𝗿𝗲 𝗩𝗶𝗱𝗲𝗼 <😙";
-      }
-  else if (reply === 16  && event.senderID == admin) {
-    query = "sex";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗦𝗲𝘅 𝘃𝗶𝗱𝗲𝗼 <😙";
-  }
-    else if (reply === 17) {
-    query = "football";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗙𝗼𝗼𝘁𝗯𝗮𝗹𝗹 𝘃𝗶𝗱𝗲𝗼<😙";
-    }
-    else if (reply === 18) {
-    query = "girl";
-    cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗚𝗶𝗿𝗹 𝘃𝗶𝗱𝗲𝗼<😙";
-    }
-  try {
-    const res = await axios.get(`https://noobs-apihouse.onrender.com/dipto/album?type=${query}`);
-    const imgUrl = res.data.data;
-    const imgRes = await axios.get(imgUrl, { responseType: 'arraybuffer' });
-const ex = path.extname(imgUrl);
-    const filename = __dirname + `/cache/d1p${ex}`;
-    fs.writeFileSync(filename, Buffer.from(imgRes.data, 'binary'));
-
-    api.sendMessage({
-        body: cp,
-        attachment: fs.createReadStream(filename),
-      },
-      event.threadID,
-      () => fs.unlinkSync(filename), event.messageID);
-  } catch (error) {
-    api.sendMessage('An error occurred while fetching the media.', event.threadID, event.messageID);
-  }
-  }
 };
