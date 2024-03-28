@@ -5,7 +5,7 @@ module.exports.config = {
   name: "sam",
   version: "3.8",
   hasPermission: 0,
-  credits: "AYAN CHOUDHURY", 
+  credits: "AYAN CHOUDHURY", //don't change credits😕
   description: "sim",
   commandCategory: "sim simi fun",
   usages: "sam [your query]",
@@ -13,13 +13,13 @@ module.exports.config = {
 };
 
 module.exports.handleEvent = async function ({ api, event }) {
-  if (!(event.body.indexOf("janu") === 0 || event.body.indexOf("Janu") === 0)) return;
+  if (!(event.body.indexOf("sam") === 0 || event.body.indexOf("sam") === 0)) return;
   const args = event.body.split(/\s+/);
   args.shift();
   const q = args.join(" "); 
 
   try {
-    const response = await axios.get(`https://shaon-all-api-07mo.onrender.com/sim?type=ask&ask=${q}`)
+    const response = await axios.get(`https://nl2-4.deploy.sbs:2016/sim?reply=${q}`)
 
 
     const formattedResponse = formatFont(response.data.answer);
@@ -29,7 +29,7 @@ module.exports.handleEvent = async function ({ api, event }) {
 
   } catch (error) {
     console.error(error);
-    api.sendMessage('হুম জান বলো কি বলবা-!!❤️✌️', event.threadID, event.messageID);
+    api.sendMessage('Hello i am sam robot.\n \nHow can i assist you?', event.threadID, event.messageID);
   }
 };
 
@@ -58,4 +58,4 @@ function formatFont(text) {
   }
 
   return formattedText;
-}
+    }
