@@ -7,7 +7,7 @@ module.exports.config = {
   version: "1.0.0",
   permssion: 0,
   credits: "AYAN CHOWDHURY",//don’t change the credits please
-  usePrefix: true,
+  usePrefix: false,
   description: "Teach AI",
   commandCategory: " SIM ✅",
     cooldowns: 2,
@@ -21,21 +21,21 @@ module.exports.config = {
   var nam = await Users.getNameUser(id);
   var ThreadInfo = await api.getThreadInfo(event.threadID);
     if (!info) {
-      return api.sendMessage(`Please enter in the format:\n${global.config.PREFIX}teach [𝗔𝘀𝗸] - [𝙍𝙚𝙥𝙤𝙣𝙨𝙚]`, event.threadID);
+      return api.sendMessage(`Please enter in the format:\n${global.config.PREFIX}teach hi - hello`, event.threadID);
     } else {
       const msg = info.split("-");
       const ask = msg[0].trim();
       const ans = msg[1].trim();
 
 
-      const img = `https://nl2-4.deploy.sbs:2016/sim?teach=${ask}&ans={ans}`
+      const img = `https://nl2-4.deploy.sbs:2016/sim?type=teach&ask=${ask}&ans=${ans}`
 
       try {
         const response = await axios.get(img);
 
 
                 api.sendMessage({ 
-          body: `▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n╏ 𝙌𝙪𝙚𝙧𝙮 ↣ ${ask}\n \n\n╏ 𝙍𝙚𝙥𝙤𝙣𝙨𝙚 ⇉ ${ans}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${ask}\nANS: ${ans}`
+          body: `▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n╏ 𝗔𝘀𝗸 ↣ ${ask}\n \n\n╏ 𝙍𝙚𝙥𝙤𝙣𝙨𝙚 ⇉ ${ans}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${ask}\nANS: ${ans}`
                         }, event.threadID);
                       } catch (error) {
                         console.error(error);
