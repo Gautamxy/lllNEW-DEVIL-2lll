@@ -1,1 +1,128 @@
-const _0x4932c1=_0xafca;function _0xc7f4(){const _0x37c5b9=['pipe','close','[\x20There\x20are\x20%1\x20commands\x20on\x20this\x20bot,\x20Use:\x20\x22%2help\x20nameCommand\x22\x20to\x20know\x20how\x20to\x20use!\x20]','5651720DrFvUB','│━━━━━━━━━━━\x0a│','module\x20name','☂︎\x20','https://i.imgur.com/BSBlbWq.jpeg','958632klhYNp','createWriteStream','join','has','1188ICSrFG','╰━─━─━≪✠≫━─━─━╯\x0a\x0a╭━─━─━≪✠≫━─━─━╮\x0a│𝐏𝐀𝐆𝐄\x20\x20\x20(','floor','cooldowns','100072727941471','\x0aSpamming\x20the\x20bot\x20are\x20strictly\x20prohibited\x0a\x0aTotal\x20Commands:\x20','exports','moduleInfo','lastIndexOf','threadData','length','some','https://i.imgur.com/foQHycD.jpeg','run','push','7057785emnTvu','34854057eREnNz','\x0a│𝐓𝐎𝐓𝐀𝐋\x20𝐔𝐒𝐄𝐑\x20:-\x20\x20','axios','commandCategory','trim','\x0a╰━─━─━≪✠≫━─━─━╯\x0a❤️🧡💛💚💙💜🤎🖤💝❤️🧡💜\x0a𝐇𝐨𝐰\x20𝐓𝐨\x20𝐌𝐚𝐤𝐞\x20𝐅𝐫𝐞𝐞\x20𝐓𝐡𝐢𝐬\x20𝐁𝐨𝐭\x0a\x0ahttps://www.facebook.com/AYAN.BABY.LOVE.YOU\x0a\x0aARIYAN卝\x20চৌধুরীヅ\x20𝐌𝐲\x20Fb\x0a\x0aᥬ🥶᭄\x20\x20ᥬ😳᭄\x20ᥬ😝᭄\x20\x20ᥬ🙄᭄\x20ᥬ😱᭄\x20ᥬ🤡᭄\x20\x20ᥬ🥵᭄\x0a━❮●❯━━━❪💝❫━━━❮●❯━\x0a┎───────────┑\x0a\x20❘\x20\x20👑\x20\x20𝐀𝐘𝐀𝐍 𝐕3-❶\x20👑\x20\x20\x20\x0a┗───────────┙\x0a╰━─━─━≪✠≫━─━─━╯\x20','CHAND','then','/cache/4712.','help','description','size','forEach','get','https://i.imgur.com/BSBlbWq.jpeg','charAt','https://i.imgur.com/foQHycD.jpeg','replace','https://i.imgur.com/BSBlbWq.jpeg','toUpperCase','https://i.imgur.com/foQHycD.jpeg','getUserInfo','adminBot','values','1023220CrgwgT','usages','\x20╔═════•|\x20💜\x20|•═════╗\x0a\x20𝐖𝐄𝐋𝐂𝐎𝐌𝐄\x20𝐓𝐎\x20•  ➠ 𝘼𝙔𝘼𝙉 \x20 ➠𝙍𝙊𝘽𝙊𝙏\x0a╚═════•|\x20💜\x20|•═════╝\x0a\x0a━❮●❯━━━❪💝❫━━━❮●❯━\x0a\x0a╭━─━─━≪✠≫━─━─━╮','https://i.imgur.com/foQHycD.jpeg','data','hasPermssion','client','credits','sendMessage','config','log','『\x20%1\x20』𒁍\x0a%2\x0a\x0aཫ༄𒁍Usage:\x20%3\x0a𒁍❯\x20Category:\x20%4\x0a𒁍❯\x20Waiting\x20time:\x20%5\x20seconds(s)\x0a𒁍❯\x20Permission:\x20%6\x0a\x0aModule\x20code\x20by\x20%7','Admin\x20group','commands\x20list','hasOwnProperty','split','https://i.imgur.com/BSBlbWq.jpeg','name','https://i.imgur.com/BSBlbWq.jpeg','358Uhmljv','threadID','unlinkSync','slice','/cache/leiamnashel1p.jpg','5841UevyBM','17265oRGAkx','configModule','messageID','Admin\x20bot','find','https://i.imgur.com/foQHycD.jpeg','toLowerCase','https://i.imgur.com/BSBlbWq.jpeg','Commands\x20list\x0a\x0a','substring',')\x0a│𝗧𝘆𝗽𝗲:\x20°','undefined','cmds','all','group','fs-extra','PREFIX','createReadStream','𝗛𝗲𝗹𝗽°\x0a│𝗧𝗼𝘁𝗮𝗹\x20𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀:\x20','user','indexOf'];_0xc7f4=function(){return _0x37c5b9;};return _0xc7f4();}function _0xafca(_0x2d90f3,_0x2ba9f0){const _0xc7f4aa=_0xc7f4();return _0xafca=function(_0xafca91,_0x26ec2d){_0xafca91=_0xafca91-0x131;let _0x39ef7e=_0xc7f4aa[_0xafca91];return _0x39ef7e;},_0xafca(_0x2d90f3,_0x2ba9f0);}(function(_0x38ef87,_0x2f74f3){const _0x1de37f=_0xafca,_0x540c60=_0x38ef87();while(!![]){try{const _0x5f251f=-parseInt(_0x1de37f(0x15f))/0x1+parseInt(_0x1de37f(0x172))/0x2*(parseInt(_0x1de37f(0x177))/0x3)+-parseInt(_0x1de37f(0x133))/0x4+parseInt(_0x1de37f(0x178))/0x5*(-parseInt(_0x1de37f(0x137))/0x6)+-parseInt(_0x1de37f(0x146))/0x7+-parseInt(_0x1de37f(0x190))/0x8+parseInt(_0x1de37f(0x147))/0x9;if(_0x5f251f===_0x2f74f3)break;else _0x540c60['push'](_0x540c60['shift']());}catch(_0x4c6fcf){_0x540c60['push'](_0x540c60['shift']());}}}(_0xc7f4,0x88b16),module[_0x4932c1(0x13d)][_0x4932c1(0x168)]={'name':_0x4932c1(0x150),'version':'1.0.2','hasPermssion':0x0,'credits':_0x4932c1(0x14d),'description':_0x4932c1(0x16c),'commandCategory':'system','usages':_0x4932c1(0x192),'cooldowns':0x1,'envConfig':{'autoUnsend':![],'delayUnsend':0x12c}},module[_0x4932c1(0x13d)]['languages']={'en':{'moduleInfo':_0x4932c1(0x16a),'helpList':_0x4932c1(0x18f),'user':'User','adminGroup':_0x4932c1(0x16b),'adminBot':_0x4932c1(0x17b)}},module[_0x4932c1(0x13d)]['handleEvent']=function({api:_0x5532fd,event:_0x53284e,getText:_0x341d67}){const _0x37ad11=_0x4932c1,{commands:_0x3e0c06}=global[_0x37ad11(0x165)],{threadID:_0x1d3c2d,messageID:_0x4cbdbb,body:_0x101fe1}=_0x53284e;if(!_0x101fe1||typeof _0x101fe1==_0x37ad11(0x183)||_0x101fe1['indexOf']('help')!=0x0)return;const _0x48762c=_0x101fe1[_0x37ad11(0x175)](_0x101fe1[_0x37ad11(0x18c)]('help'))[_0x37ad11(0x14b)]()[_0x37ad11(0x16e)](/\s+/);if(_0x48762c[_0x37ad11(0x141)]==0x1||!_0x3e0c06[_0x37ad11(0x136)](_0x48762c[0x1][_0x37ad11(0x17e)]()))return;const _0x39611f=global[_0x37ad11(0x163)][_0x37ad11(0x140)][_0x37ad11(0x154)](parseInt(_0x1d3c2d))||{},_0x5b3b0c=_0x3e0c06[_0x37ad11(0x154)](_0x48762c[0x1]['toLowerCase']()),_0x1cc6e1=_0x39611f['hasOwnProperty'](_0x37ad11(0x188))?_0x39611f['PREFIX']:global[_0x37ad11(0x168)][_0x37ad11(0x188)];return _0x5532fd['sendMessage'](_0x341d67(_0x37ad11(0x13e),_0x5b3b0c[_0x37ad11(0x168)]['name'],_0x5b3b0c['config'][_0x37ad11(0x151)],''+_0x1cc6e1+_0x5b3b0c[_0x37ad11(0x168)][_0x37ad11(0x170)]+'\x20'+(_0x5b3b0c[_0x37ad11(0x168)][_0x37ad11(0x160)]?_0x5b3b0c[_0x37ad11(0x168)][_0x37ad11(0x160)]:''),_0x5b3b0c[_0x37ad11(0x168)]['commandCategory'],_0x5b3b0c['config'][_0x37ad11(0x13a)],_0x5b3b0c['config'][_0x37ad11(0x164)]==0x0?_0x341d67(_0x37ad11(0x18b)):_0x5b3b0c[_0x37ad11(0x168)][_0x37ad11(0x164)]==0x1?_0x341d67('adminGroup'):_0x341d67(_0x37ad11(0x15d)),_0x5b3b0c['config']['credits']),_0x1d3c2d,_0x4cbdbb);},module[_0x4932c1(0x13d)][_0x4932c1(0x144)]=function({api:_0x4beff0,event:_0x52d5f9,args:_0x1a0f8e,getText:_0x490c48}){const _0x21cc34=_0x4932c1,_0x37e87a=require(_0x21cc34(0x149)),_0xc0b975=require('request'),_0x1b82ed=require(_0x21cc34(0x187)),{commands:_0x23c3a3}=global[_0x21cc34(0x165)],{threadID:_0x198d22,messageID:_0x14e447}=_0x52d5f9,_0x2556dc=_0x23c3a3['get']((_0x1a0f8e[0x0]||'')[_0x21cc34(0x17e)]()),_0x2fba42=global['data'][_0x21cc34(0x140)][_0x21cc34(0x154)](parseInt(_0x198d22))||{},{autoUnsend:_0x52d056,delayUnsend:_0x5024e5}=global[_0x21cc34(0x179)][this[_0x21cc34(0x168)]['name']],_0x3dc3f1=_0x2fba42[_0x21cc34(0x16d)]('PREFIX')?_0x2fba42['PREFIX']:global[_0x21cc34(0x168)][_0x21cc34(0x188)];if(_0x1a0f8e[0x0]==_0x21cc34(0x185)){const _0x1884e2=_0x23c3a3[_0x21cc34(0x15e)]();var _0x55df43=[],_0x47d086='';for(const _0x1d61f8 of _0x1884e2){if(!_0x55df43[_0x21cc34(0x142)](_0x510355=>_0x510355[_0x21cc34(0x186)][_0x21cc34(0x17e)]()==_0x1d61f8[_0x21cc34(0x168)][_0x21cc34(0x14a)][_0x21cc34(0x17e)]()))_0x55df43[_0x21cc34(0x145)]({'group':_0x1d61f8['config']['commandCategory'][_0x21cc34(0x17e)](),'cmds':[_0x1d61f8['config'][_0x21cc34(0x170)]]});else _0x55df43[_0x21cc34(0x17c)](_0x38a7ca=>_0x38a7ca['group'][_0x21cc34(0x17e)]()==_0x1d61f8['config'][_0x21cc34(0x14a)][_0x21cc34(0x17e)]())[_0x21cc34(0x184)][_0x21cc34(0x145)](_0x1d61f8['config'][_0x21cc34(0x170)]);}return _0x55df43[_0x21cc34(0x153)](_0x21e3af=>_0x47d086+=_0x21cc34(0x131)+(_0x21e3af[_0x21cc34(0x186)][_0x21cc34(0x156)](0x0)[_0x21cc34(0x15a)]()+_0x21e3af[_0x21cc34(0x186)][_0x21cc34(0x175)](0x1))+'\x20\x0a'+_0x21e3af['cmds'][_0x21cc34(0x135)]('\x20•\x20')+'\x0a\x0a'),_0x37e87a[_0x21cc34(0x154)]('')[_0x21cc34(0x14e)](_0x16fdfc=>{const _0x21c9b6=_0x21cc34;let _0x3b0a0e=_0x16fdfc[_0x21c9b6(0x163)][_0x21c9b6(0x163)][_0x21c9b6(0x181)](_0x16fdfc['data'][_0x21c9b6(0x163)][_0x21c9b6(0x13f)]('.')+0x1),_0x33699a=_0x21c9b6(0x13b);_0x4beff0[_0x21c9b6(0x15c)](parseInt(_0x33699a),(_0x57ffb1,_0x1a396c)=>{const _0x36fb85=_0x21c9b6;if(_0x57ffb1)return console[_0x36fb85(0x169)](_0x57ffb1);var _0xdc9e6=Object['keys'](_0x1a396c),_0x402a40=_0x1a396c[_0xdc9e6][_0x36fb85(0x170)][_0x36fb85(0x158)]('@','');let _0x155e3b=function(){const _0x5d4abd=_0x36fb85;_0x4beff0['sendMessage']({'body':_0x5d4abd(0x180)+_0x47d086+(_0x5d4abd(0x13c)+_0x23c3a3[_0x5d4abd(0x152)]+'\x0a\x0aDeveloper:\x0a'+_0x402a40),'mentions':[{'tag':_0x402a40,'id':_0x33699a,'fromIndex':0x0}],'attachment':_0x1b82ed[_0x5d4abd(0x189)](__dirname+('/cache/4712.'+_0x3b0a0e))},_0x52d5f9[_0x5d4abd(0x173)],(_0x530abf,_0x2141fb)=>{const _0x27c039=_0x5d4abd;_0x1b82ed[_0x27c039(0x174)](__dirname+(_0x27c039(0x14f)+_0x3b0a0e));if(_0x52d056==![])setTimeout(()=>{return _0x4beff0['unsendMessage'](_0x2141fb['messageID']);},_0x5024e5*0x3e8);else return;},_0x52d5f9['messageID']);};_0xc0b975(_0x16fdfc[_0x36fb85(0x163)][_0x36fb85(0x163)])['pipe'](_0x1b82ed[_0x36fb85(0x134)](__dirname+(_0x36fb85(0x14f)+_0x3b0a0e)))['on'](_0x36fb85(0x18e),_0x155e3b);});});};if(!_0x2556dc){const _0x5682f1=[],_0x19946d=parseInt(_0x1a0f8e[0x0])||0x1,_0x528e6f=0xa;let _0x127196=0x0,_0x47ee32='';for(var [_0x4f65fd,_0x30d001]of _0x23c3a3){_0x4f65fd+='',_0x5682f1[_0x21cc34(0x145)](_0x4f65fd);}_0x5682f1['sort']((_0x5113a7,_0x67c9c1)=>_0x5113a7['data']-_0x67c9c1[_0x21cc34(0x163)]);const _0x144a3a=_0x528e6f*_0x19946d-_0x528e6f;_0x127196=_0x144a3a;const _0x1e1ddc=_0x5682f1['slice'](_0x144a3a,_0x144a3a+_0x528e6f);for(let _0xb577f4 of _0x1e1ddc)_0x47ee32+=_0x21cc34(0x191)+ ++_0x127196+'➥'+_0xb577f4+'\x0a';const _0x3323c6=_0x21cc34(0x161),_0x13f2ba=_0x21cc34(0x138)+_0x19946d+'/'+Math['ceil'](_0x5682f1[_0x21cc34(0x141)]/_0x528e6f)+_0x21cc34(0x182)+_0x3dc3f1+_0x21cc34(0x18a)+_0x5682f1['length']+_0x21cc34(0x148)+global['data']['allUserID'][_0x21cc34(0x141)]+_0x21cc34(0x14c);var _0x5065f1=[_0x21cc34(0x157),_0x21cc34(0x143),_0x21cc34(0x17d),'https://i.imgur.com/zU26Rqx.jpeg','https://i.imgur.com/zU26Rqx.jpeg',_0x21cc34(0x155),_0x21cc34(0x17f),_0x21cc34(0x15b),_0x21cc34(0x159),_0x21cc34(0x171),_0x21cc34(0x132)],_0x300795=()=>_0x4beff0[_0x21cc34(0x167)]({'body':_0x3323c6+'\x0a'+_0x47ee32+_0x13f2ba,'attachment':_0x1b82ed['createReadStream'](__dirname+_0x21cc34(0x176))},_0x52d5f9[_0x21cc34(0x173)],()=>_0x1b82ed['unlinkSync'](__dirname+'/cache/leiamnashel1p.jpg'),_0x52d5f9[_0x21cc34(0x17a)]);return _0xc0b975(encodeURI(_0x5065f1[Math[_0x21cc34(0x139)](Math['random']()*_0x5065f1['length'])]))[_0x21cc34(0x18d)](_0x1b82ed[_0x21cc34(0x134)](__dirname+_0x21cc34(0x176)))['on'](_0x21cc34(0x18e),()=>_0x300795());}const _0x3bcbef=_0x490c48(_0x21cc34(0x13e),_0x2556dc['config'][_0x21cc34(0x170)],_0x2556dc[_0x21cc34(0x168)][_0x21cc34(0x151)],''+(_0x2556dc['config'][_0x21cc34(0x160)]?_0x2556dc[_0x21cc34(0x168)]['usages']:''),_0x2556dc['config'][_0x21cc34(0x14a)],_0x2556dc[_0x21cc34(0x168)]['cooldowns'],_0x2556dc[_0x21cc34(0x168)]['hasPermssion']==0x0?_0x490c48(_0x21cc34(0x18b)):_0x2556dc[_0x21cc34(0x168)]['hasPermssion']==0x1?_0x490c48('adminGroup'):_0x490c48(_0x21cc34(0x15d)),_0x2556dc[_0x21cc34(0x168)][_0x21cc34(0x166)]);var _0x5065f1=['https://i.imgur.com/zU26Rqx.jpeg','https://i.imgur.com/zU26Rqx.jpeg',_0x21cc34(0x17d),_0x21cc34(0x16f),_0x21cc34(0x162),_0x21cc34(0x155),_0x21cc34(0x17f),'https://i.imgur.com/zU26Rqx.jpeg',_0x21cc34(0x159),_0x21cc34(0x171),'https://i.imgur.com/zU26Rqx.jpeg'],_0x300795=()=>_0x4beff0[_0x21cc34(0x167)]({'body':_0x3bcbef,'attachment':_0x1b82ed[_0x21cc34(0x189)](__dirname+_0x21cc34(0x176))},_0x52d5f9[_0x21cc34(0x173)],()=>_0x1b82ed['unlinkSync'](__dirname+_0x21cc34(0x176)),_0x52d5f9[_0x21cc34(0x17a)]);return _0xc0b975(encodeURI(_0x5065f1[Math[_0x21cc34(0x139)](Math['random']()*_0x5065f1[_0x21cc34(0x141)])]))['pipe'](_0x1b82ed[_0x21cc34(0x134)](__dirname+_0x21cc34(0x176)))['on'](_0x21cc34(0x18e),()=>_0x300795());});
+module.exports.config = {
+  name: "help",
+  version: "1.0.0",
+  hasPermission: 0,
+  credits: "Ayan", //  PUTANG INA MO WAG MONG PAPALITAN TONG CREDITS WAG KANG KUPAL GAGO..
+  description: "Guide for new users",
+  commandCategory: "system",
+  usages: "/help",
+  cooldowns: 5,
+  envConfig: {
+    autoUnsend: true,
+    delayUnsend: 60
+  }
+};
+
+  const mathSansBold = {
+  A: "𝗔", B: "𝗕", C: "𝗖", D: "𝗗", E: "𝗘", F: "𝗙", G: "𝗚", H: "𝗛", I: "𝗜",
+  J: "𝗝", K: "𝗞", L: "𝗟", M: "𝗠", N: "𝗡", O: "𝗢", P: "𝗣", Q: "𝗤", R: "𝗥",
+  S: "𝗦", T: "𝗧", U: "𝗨", V: "𝗩", W: "𝗪", X: "𝗫", Y: "𝗬", Z: "𝗭", a: "𝗔", b: "𝗕", c: "𝗖", d: "𝗗", e: "𝗘", f: "𝗙", g: "𝗚", h: "𝗛", i: "𝗜",
+  j: "𝗝", k: "𝗞", l: "𝗟", m: "𝗠", n: "𝗡", o: "𝗢", p: "𝗣", q: "𝗤", r: "𝗥",
+  s: "𝗦", t: "𝗧", u: "𝗨", v: "𝗩", w: "𝗪", x: "𝗫", y: "𝗬", z: "𝗭"
+};
+
+module.exports.handleEvent = function ({ api, event, getText }) {
+  const { commands } = global.client;
+  const { threadID, messageID, body } = event;
+
+  if (!body || typeof body == "undefined" || body.indexOf("commands") != 0) return;
+  const splitBody = body.slice(body.indexOf("commands")).trim().split(/\s+/);
+  if (splitBody.length == 1 || !commands.has(splitBody[1].toLowerCase())) return;
+  const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
+  const command = commands.get(splitBody[1].toLowerCase());
+  const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
+  return api.sendMessage(getText("moduleInfo", command.config.name, command.config.description, `${prefix}${command.config.name} ${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermission == 0) ? getText("user") : (command.config.hasPermission == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits), threadID, messageID);
+};
+
+module.exports.run = async function ({ api, event, args }) {
+  const uid = event.senderID;
+  const userName = (await api.getUserInfo(uid))[uid].name;
+
+  const { commands } = global.client;
+  const { threadID, messageID } = event;
+  const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
+  const { autoUnsend, delayUnsend } = global.configModule[this.config.name];
+  const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
+
+  const categories = new Set();
+  const categorizedCommands = new Map();
+
+  for (const [name, value] of commands) {
+    const categoryName = value.config.commandCategory;
+    if (!categories.has(categoryName)) {
+      categories.add(categoryName);
+      categorizedCommands.set(categoryName, []);
+    }
+    categorizedCommands.get(categoryName).push(`│ ✧ ${value.config.name}`);
+  }
+
+  let msg = `Hey ${userName}, these are commands that may help you:\n`;
+
+  for (const categoryName of categories) {
+    const categoryNameSansBold = categoryName.split("").map(c => mathSansBold[c] || c).join("");
+    msg += `╭─❍「 ${categoryNameSansBold} 」\n`;
+    msg += categorizedCommands.get(categoryName).join("\n");
+    msg += "\n╰───────────⟡\n";
+  }
+
+  const randomQuotes = [
+  "Octopuses have three hearts: two pump blood to the gills, and one pumps it to the rest of the body.",
+    "Honey never spoils; archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old.",
+    "The world's oldest known recipe is for beer.",
+    "Bananas are berries, but strawberries are not.",
+    "Cows have best friends and can become stressed when they are separated.",
+    "The shortest war in history was between Britain and Zanzibar on August 27, 1896; Zanzibar surrendered after 38 minutes.",
+    "The average person walks the equivalent of three times around the world in a lifetime.",
+    "Polar bears are left-handed.",
+    "The unicorn is Scotland's national animal.",
+    "A group of flamingos is called a 'flamboyance'.",
+    "There are more possible iterations of a game of chess than there are atoms in the known universe.",
+    "The smell of freshly-cut grass is actually a plant distress call.",
+    "A day on Venus is longer than its year.",
+    "Honeybees can recognize human faces.",
+    "Wombat poop is cube-shaped.",
+    "The first oranges weren't orange.",
+    "The longest time between two twins being born is 87 days.",
+    "A bolt of lightning is six times hotter than the sun.",
+    "A baby puffin is called a puffling.",
+    "A jiffy is an actual unit of time: 1/100th of a second.",
+    "The word 'nerd' was first coined by Dr. Seuss in 'If I Ran the Zoo'.",
+    "There's a species of jellyfish that is biologically immortal.",
+    "The Eiffel Tower can be 6 inches taller during the summer due to the expansion of the iron.",
+    "The Earth is not a perfect sphere; it's slightly flattened at the poles and bulging at the equator.",
+    "A hummingbird weighs less than a penny.",
+    "Koalas have fingerprints that are nearly identical to humans'.",
+    "There's a town in Norway where the sun doesn't rise for several weeks in the winter, and it doesn't set for several weeks in the summer.",
+    "A group of owls is called a parliament.",
+    "The fingerprints of a koala are so indistinguishable from humans' that they have on occasion been confused at a crime scene.",
+    "The Hawaiian alphabet has only 13 letters.",
+    "The average person spends six months of their life waiting for red lights to turn green.",
+    "A newborn kangaroo is about 1 inch long.",
+    "The oldest known living tree is over 5,000 years old.",
+    "Coca-Cola would be green if coloring wasn't added to it.",
+    "A day on Mars is about 24.6 hours long.",
+    "The Great Wall of China is not visible from space without aid.",
+    "A group of crows is called a murder.",
+    "There's a place in France where you can witness an optical illusion that makes you appear to grow and shrink as you walk down a hill.",
+    "The world's largest desert is Antarctica, not the Sahara.",
+    "A blue whale's heart is so big that a human could swim through its arteries.",
+    "The longest word in the English language without a vowel is 'rhythms'.",
+    "Polar bears' fur is not white; it's actually transparent.",
+    "The electric chair was invented by a dentist.",
+    "An ostrich's eye is bigger than its brain.",
+    "Wombat poop is cube-shaped."
+  ];
+
+  const randomQuote = randomQuotes[Math.floor(Math.random() * randomQuotes.length)];
+
+  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX:.  」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}`;
+  
+
+  return api.sendMessage(msg, threadID, async (error, info) => {
+    if (autoUnsend) {
+      await new Promise(resolve => setTimeout(resolve, delayUnsend * 60000));
+      return api.unsendMessage(info.messageID);
+    } else return;
+  });
+};
+  
