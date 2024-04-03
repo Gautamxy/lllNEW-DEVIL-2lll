@@ -1,6 +1,6 @@
 
 module.exports.config = {
-  name: "video2",
+  name: "album",
   version: "1.0.",
   hasPermssion: 0,
   credits: "NAYAN/AYAN",//full credit NAYAN
