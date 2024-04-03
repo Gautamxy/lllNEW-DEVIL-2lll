@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Shtvdo",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "ZEESHAN",
+  credits: "AYAN",
   description: "ISLAMIC VEDIO",
   commandCategory: "Hình ảnh",
   usages: "sad vedio",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["๛➣𓆩𝐁𝐀𝐏𝐏𝐀᭄𓆪‣𒁍"];
+   var hi = ["𝐀𝐘𝐀𝐍- 𝐕𝐈𝐃𝐄𝐎 - 🥀🥰"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
