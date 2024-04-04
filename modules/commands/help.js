@@ -2,10 +2,10 @@ module.exports.config = {
   name: "help",
   version: "1.0.0",
   hasPermission: 0,
-  credits: "Ayan", //  PUTANG INA MO WAG MONG PAPALITAN TONG CREDITS WAG KANG KUPAL GAGO..
+  credits: "Ayan", //  Dont change credits..
   description: "Guide for new users",
   commandCategory: "system",
-  usages: "/help",
+  usages: ".help",
   cooldowns: 5,
   envConfig: {
     autoUnsend: true,
@@ -56,7 +56,7 @@ module.exports.run = async function ({ api, event, args }) {
     categorizedCommands.get(categoryName).push(`│ ✧ ${value.config.name}`);
   }
 
-  let msg = `Hey ${userName}, these are commands that may help you:\n`;
+  let msg = `━━━━━━━━━━━━━━━━━\n\n\n➜ 𝐀𝐘𝐀𝐍 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓 (👑)\n\n\n━━━━━━━━━━━━━━━━━\n\nHello${userName}, these are commands that may help you:\n`;
 
   for (const categoryName of categories) {
     const categoryNameSansBold = categoryName.split("").map(c => mathSansBold[c] || c).join("");
@@ -115,7 +115,7 @@ module.exports.run = async function ({ api, event, args }) {
 
   const randomQuote = randomQuotes[Math.floor(Math.random() * randomQuotes.length)];
 
-  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX:.  」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}`;
+  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX:.  」\n╰──────────⧕\n\n√credits ➜ 𝐀𝐘𝐀𝐍\n\nhttps://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}`;
   
 
   return api.sendMessage(msg, threadID, async (error, info) => {
