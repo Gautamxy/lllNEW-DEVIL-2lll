@@ -56,7 +56,7 @@ module.exports.run = async function ({ api, event, args }) {
     categorizedCommands.get(categoryName).push(`│ ✧ ${value.config.name}`);
   }
 
-  let msg = `━━━━━━━━━━━━━━━━━\n\n\n➜ 𝐀𝐘𝐀𝐍 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓 (👑)\n\n\n━━━━━━━━━━━━━━━━━\n\nHello${userName}, these are commands that may help you:\n`;
+  let msg = `━━━━━━━━━━━━━━━━━\n\n➜ 𝐀𝐘𝐀𝐍 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓 (👑)\n\n━━━━━━━━━━━━━━━━━\n\nHello ${userName}, these are commands that may help you:\n`;
 
   for (const categoryName of categories) {
     const categoryNameSansBold = categoryName.split("").map(c => mathSansBold[c] || c).join("");
