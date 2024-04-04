@@ -70,7 +70,7 @@ async function circle(image) {
 
 module.exports.run = async function ({ event, api, args, Currencies }) { 
     const fs = global.nodemodule["fs-extra"];
-    const ae = ["💚Yeuanh❤","💛Yeuem💜"];
+    const ae = ["🫦kissing🫦","🥵kissing🥵"];
     const hc = Math.floor(Math.random() * 101) + 101;
     const rd = Math.floor(Math.random() * 10) + 1;
     const { threadID, messageID, senderID } = event;
