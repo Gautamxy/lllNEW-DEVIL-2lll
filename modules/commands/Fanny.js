@@ -32,7 +32,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 
     body: "😬😬",
 
-    attachment: fs.createReadStream(__dirname + `modules/commands/cache/fblite_video-3.mp4`)
+    attachment: fs.createReadStream(__dirname + `modules/commands/cache/sad.js`)
 
    }
 
