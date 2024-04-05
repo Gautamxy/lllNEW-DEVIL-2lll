@@ -1,17 +1,19 @@
 const os = require('os');
 
 module.exports.config = {
- name: "upt",
- version: "1.0.2",
- hasPermssion: 0,
- credits: "AYAN",
- description: "uptime",
- commandCategory: "system",
- usePrefix: true,
- cooldowns: 5,
- dependencies: {
-	"pidusage": ""
- }
+	name: "upt",
+	version: "1.0.1", 
+	hasPermssion: 0,
+	credits: "AYAN",// full credit Ayan Chowdhury
+	description: "uptime",
+	commandCategory: "running",
+	cooldowns: 1,
+	dependencies: 
+	{
+    "request":"",
+    "fs-extra":"",
+    "axios":""
+  }
 };
 
 function byte2mb(bytes) {
