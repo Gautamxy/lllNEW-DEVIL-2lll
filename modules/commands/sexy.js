@@ -1,25 +1,27 @@
 module.exports.config = {
-	name: "sexy",
-	version: "1.0.0",
-	hasPermssion: 3,
-	credits: "AYAN",
-	description: "Random sexy girl pictures",
-	commandCategory: "nsfw",
-	usages: "sexy",
-	cooldowns: 3
+  name: "sexxy",
+  version: "1.0.0",
+  hasPermssion: 2,
+  credits: "AYAN",
+  description: "Random sexy photos for a fee",
+  commandCategory: "Image",
+  usages: "sexy",
+  cooldowns: 3
 };
 
-module.exports.run = async ({ api, event }) => {
-	const axios = require('axios');
-	const request = require('request');
-	const fs = require("fs");
-	axios.get('https://apituandz1407.herokuapp.com/api/gaisexy.php').then(res => {
-	let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
-	let callback = function () {
-					api.sendMessage({
-						attachment: fs.createReadStream(__dirname + `/cache/nobra.${ext}`)
-					}, event.threadID, () => fs.unlinkSync(__dirname + `/cache/nobra.${ext}`), event.messageID);
-				};
-				request(res.data.data).pipe(fs.createWriteStream(__dirname + `/cache/nobra.${ext}`)).on("close", callback);
-			})
+module.exports.run = async ({ api, event, Currencies }) => {
+  const axios = require('axios');
+  const request = require('request');
+  const fs = require("fs");
+  var money = (await Currencies.getData(event.senderID)).money
+  if (money >= 1000) {
+    axios.get('http://api.vangbanlanhat.tk/image?type=sexy').then(res => {
+    var callback = function () {
+          api.sendMessage({
+            attachment: fs.createReadStream(__dirname + '/cache/trai.jpg')
+          }, event.threadID, () => fs.unlinkSync(__dirname + '/cache/trai.jpg'), event.messageID);
+        };
+        request(res.data.data).pipe(fs.createWriteStream(__dirname + '/cache/trai.jpg')).on("close", callback).then(Currencies.setData(event.senderID, options = {money: money - 1000}));
+      })
+  } else return api.sendMessage("Are you addicted to sex, you cunt",event.threadID,event.messageID);
 }
