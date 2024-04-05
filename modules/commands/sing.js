@@ -29,12 +29,12 @@ async function downloadMusicFromYoutube(link, path) {
   return returnPromise
 }
 module.exports.config = {
-    name: "song",
+    name: "sing",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "D-Jukie",
-    description: "Phát nhạc thông qua link YouTube hoặc từ khoá tìm kiếm",
-    commandCategory: "tiện ích",
+    credits: "AYAN CHOWDHURY",
+    description: "Play music through YouTube link or search keyword",
+    commandCategory: "Youtube",
     usages: "[searchMusic]",
     cooldowns: 0
 };
@@ -43,12 +43,12 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
     const axios = require('axios')
     const { createReadStream, unlinkSync, statSync } = require("fs-extra")
     try {
-        var path = `${__dirname}/cache/1.mp3`
+        var path = `${__dirname}/cache/sing-${event.senderID}.mp3`
         var data = await downloadMusicFromYoutube('https://www.youtube.com/watch?v=' + handleReply.link[event.body -1], path);
-        if (fs.statSync(path).size > 26214400) return api.sendMessage('The file cannot be sent because the capacity is greater than 25MB.', event.threadID, () => fs.unlinkSync(path), event.messageID);
+        if (fs.statSync(path).size > 26214400) return api.sendMessage('File cannot be sent because it is larger than 25MB.', event.threadID, () => fs.unlinkSync(path), event.messageID);
         api.unsendMessage(handleReply.messageID)
         return api.sendMessage({ 
-		body: `🎵 Title: ${data.title}\n🎶 Name Channel : ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n🥰 Likes: ${data.likes}\n⏱️Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====𓆩𝐀𝐘𝐀𝐍---𝐀᭄𓆪 ᥬ🙂᭄ 𓆩😁𓆪====💿`,
+            body: `🎵 Title: ${data.title}\n⏱️ Time: ${this.convertHMS(data.dur)}\n⏱️Processing Time: ${Math.floor((Date.now()- data.timestart)/1000)} seconds`,
             attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
          event.messageID)
             
@@ -66,18 +66,18 @@ module.exports.convertHMS = function(value) {
     return (hours != '00' ? hours +':': '') + minutes+':'+seconds;
 }
 module.exports.run = async function ({ api, event, args }) {
-    if (args.length == 0 || !args) return api.sendMessage('𝐏𝐮𝐭 𝐚 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞 𝐩𝐥𝐞𝐚𝐬𝐞📝', event.threadID, event.messageID);
+    if (args.length == 0 || !args) return api.sendMessage('» The search field cannot be empty!', event.threadID, event.messageID);
     const keywordSearch = args.join(" ");
-    var path = `${__dirname}/cache/1.mp3`
+    var path = `${__dirname}/cache/sing-${event.senderID}.mp3`
     if (fs.existsSync(path)) { 
         fs.unlinkSync(path)
     }
     if (args.join(" ").indexOf("https://") == 0) {
         try {
             var data = await downloadMusicFromYoutube(args.join(" "), path);
-            if (fs.statSync(path).size > 26214400) return api.sendMessage('Unable to send files because the capacity is greater than 25MB .', event.threadID, () => fs.unlinkSync(path), event.messageID);
+            if (fs.statSync(path).size > 26214400) return api.sendMessage('File cannot be sent because it is larger than 25MB.', event.threadID, () => fs.unlinkSync(path), event.messageID);
             return api.sendMessage({ 
-                body: `🎵 Title: ${data.title}\n🎶 Name Channel: ${data.author}\n⏱️ Time: ${this.convertHMS(data.dur)}\n👀 Views: ${data.viewCount}\n👍 Likes: ${data.likes}\n⏱️ Processing time: ${Math.floor((Date.now()- data.timestart)/1000)} second\n💿====DISME PROJECT====💿`,
+                body: `🎵 Title: ${data.title}\n⏱️ Time: ${this.convertHMS(data.dur)}\n⏱️Processing Time: ${Math.floor((Date.now()- data.timestart)/1000)} seconds`,
                 attachment: fs.createReadStream(path)}, event.threadID, ()=> fs.unlinkSync(path), 
             event.messageID)
             
@@ -95,7 +95,7 @@ module.exports.run = async function ({ api, event, args }) {
               num = num+=1
               msg += (`${num} - ${value.title} (${value.length.simpleText})\n\n`);
             }
-            var body = `»🔎 There's ${link.length} the result coincides with your search keyword:\n\n${msg}» Reply(feedback) select one of the searches above `
+            var body = `»🔎 Have ${link.length} Results match your search term:\n\n${msg}» Please reply(feedback) choose one of the above searches`
             return api.sendMessage({
               body: body
             }, event.threadID, (error, info) => global.client.handleReply.push({
@@ -106,7 +106,7 @@ module.exports.run = async function ({ api, event, args }) {
               link
             }), event.messageID);
           } catch(e) {
-            return api.sendMessage('An error has occurred, please try again in a moment!!\n' + e, event.threadID, event.messageID);
+            return api.sendMessage('An error occurred, please try again in a moment!!\n' + e, event.threadID, event.messageID);
         }
     }
-                                                                                                                                                                                                       }
+			}
