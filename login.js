@@ -6,5 +6,5 @@ var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // credential in
 login(credentials, (err, api) => {
     if(err) return console.error(err);
     // login
-    fs.writeFileSync('Ayanstate.json', JSON.stringify(api.getAyanState())); //create Ayanstate
+    fs.writeFileSync('ayanstate.json', JSON.stringify(api.getappState())); //create ayanstate
 });
