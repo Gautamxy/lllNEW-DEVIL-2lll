@@ -20,6 +20,15 @@
         "61557603311017",
         ""
     ],
+      "DESIGN": {
+    "Title": "AYAN-BOT",
+    "Theme": "Blue",
+    "Admin": "Ayan",
+    "Setup": {
+      "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
+      "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
+    }
+  },
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
@@ -127,13 +136,13 @@
         "enable": true
     },
     "song": {
-        "YOUTUBE_API": "AIzaSyA25_Ne0gD1DeciKIM8PzZBLvQ0MgGRlr0",
+        "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
         "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub",
         "ManhG_KEY": "mzk_B7P7BM8K4OCCO704X2K",
         "API_KEY": "mzk_B7P7BM8K4OCCO704X2K"
     },
     "dutube": {
-        "YOUTUBE_API": "AIzaSyBkeljYcuoBOHfx523FH2AEENlciKnm3jM"
+        "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
     },
     "banner": {
         "APIKEY": "ntkhang"
@@ -145,7 +154,7 @@
         "APIKEY": "ntkhang"
     },
     "audio": {
-        "YOUTUBE_API": "AIzaSyB5Kh5G40yw8PiaGQij0VKAo2rGHIAi6Ư",
+        "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
         "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
     },
     "ins": {
