@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000
 
 // const port = 5000
 
-app.get('/', (req, res) => res.send('Remade By Chand'));
+app.get('/', (req, res) => res.send('Remade By Ayan'));
 
 app.listen(port, () =>
 	console.log(`Your app is listening a http://localhost:${port}`)
