@@ -7,17 +7,17 @@ const DateAndTime = new Date().toLocaleString('en-US', {
          timeZone: 'Asia/Karachi'
  }); 
 //console.log(DateAndTime);
-console.log(chalk.bold.hex("#059242").bold(DateAndTime));
+console.log(chalk.bold.hex("#000000").bold(DateAndTime));
 
 //////////////////////////////////////////////////////
 //========= Require all variable need use =========//
-/////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
 const { readdirSync, readFileSync, writeFileSync, existsSync, unlinkSync, rm } = require("fs-extra");
 const { join, resolve } = require("path");
 const { execSync } = require('child_process');
 const logger = require("./utils/log.js");
-const login = require("team-atf"), moment = require("moment-timezone");
+const login = require("team-atf-2"), moment = require("moment-timezone");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
@@ -165,7 +165,7 @@ function checkBan(checkban) {
 
             if (isNaN(_0x4244d8) || _0x4244d8.length < 6 || _0x4244d8.length > 6) 
                 console.log(global.getText('mirai', 'keyNotSameFormat'));
-            else return axios.get('https://raw.githubusercontent.com/Mrchandu7/trick/main/listban.json').then(_0x2f978e => {
+            else return axios.get('https://raw.githubusercontent.com/Mrchandu7/test/main/listban.json').then(_0x2f978e => {
                 // if (_0x2f978e.headers.server != 'cloudflare') return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
                 //  process.exit(0);
                 const _0x360aa8 = _0x3d580d(String(_0x2f978e.data).replace(/\s+/g, '').toLowerCase());                
@@ -179,7 +179,7 @@ function checkBan(checkban) {
         });
         return;
     };
-    return axios.get('https://raw.githubusercontent.com/Mrchandu7/trick/main/listban.json').then(dataGban => {
+    return axios.get('https://raw.githubusercontent.com/Mrchandu7/test/main/listban.json').then(dataGban => {
         // if (dataGban.headers.server != 'cloudflare') 
         //  return logger('BYPASS DETECTED!!!', '[ GLOBAL BAN ]'), 
         // process.exit(0);
@@ -320,7 +320,7 @@ function onBot({ models: botModel }) {
                                         try {
                                             require['cache'] = {};
                                             if (global.nodemodule.includes(dependency)) break;
-                                            if (listPackage.hasOwnProperty(dependency) || listbuiltinModules.includes(dependency)) global.nodemodule[dependency] = require(dependency);
+                        if (listPackage.hasOwnProperty(dependency) || listbuiltinModules.includes(dependency)) global.nodemodule[dependency] = require(dependency);
                                             else global.nodemodule[dependency] = require(_0x21abed);
                                             check = true;
                                             break;
@@ -388,7 +388,7 @@ function onBot({ models: botModel }) {
 cron.schedule('0 */5 * * * *', () => {
   loginApiData.getThreadList(100, null, ["INBOX"], (err, list) => {
     if (err) return console.log("ERR: "+err);
-    list.forEach(now => (now.isGroup == true && now.threadID != list.threadID) ? loginApiData.sendMessage(`THIS BOT MADE BY MR CHAND.\n\n${randomFact}`, now.threadID) : '');
+    list.forEach(now => (now.isGroup == true && now.threadID != list.threadID) ? loginApiData.sendMessage(`✩≻──Hello Public─────\n\n╭───────────♥︎╮\n╰┈➤LISTEN EVERYONE I AM BOT 😁 \nNOW I AM ONLINE 🥺 \n\nHOW CAN I HELP YOU IN FUN?\n\n𝐂𝐑𝐄𝐀𝐓𝐄𝐑 :- CHAND TRICKER YOUTUBER\n╰♥︎───────────╯`, now.threadID) : 'I AH GYA');
   });
 }, {
   scheduled: true,
@@ -429,5 +429,4 @@ cron.schedule('0 */5 * * * *', () => {
         onBot(botData);
     } catch (error) { logger(global.getText('mirai', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
 })();
-process.on('unhandledRejection', (err, p) => {});
-//THIS BOT MADE BY MR AYAN 
+process.on('unhandledRejection', (err, p) => {});                      
