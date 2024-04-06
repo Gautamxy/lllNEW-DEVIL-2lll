@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/DCO6mCi.jpeg" alt="banner">
+<img src="https://i.imgur.com/yLTZf3T.jpeg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> AYAN ROBOT - Bot Chat Messenger</h1>
 
 <p align="center">
@@ -33,10 +33,10 @@
 	My Facebook Account ->
 	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">Ayan🚀</a></h3></div>
 
-<img align="center" src="https://i.imgur.com/foQHycD.jpeg"/>
+<img align="center" src="https://i.imgur.com/4sBxoQG.jpeg"/>
 
 
-🔹ARIYAN卝 চৌধুরীヅ
+🔹Mohammad Ayan
 
 
 # Editing AYAN CHOWDHURY😘
