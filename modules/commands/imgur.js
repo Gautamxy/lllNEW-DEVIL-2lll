@@ -13,7 +13,7 @@ module.exports.config = {
   }
 };
 
-module🥰.exports.run = async ({ api, event, args }) => {
+module.exports.run = async ({ api, event, args }) => {
     const axios = global.nodemodule['axios'];
     const linkanh = event.messageReply.attachments[0].url || args.join(" ");
     if (!linkanh)
