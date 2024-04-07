@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "sex pic",
+  name: "18+",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "AYAN CHOWDHURY",
