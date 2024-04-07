@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "uns",
 	version: "1.0.1",
-	hasPermssion: 2,
+	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "unsend message",
 	commandCategory: "system",
