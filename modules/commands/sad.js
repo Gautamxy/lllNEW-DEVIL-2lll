@@ -1,11 +1,11 @@
-/** I am doing this coding with a lot of difficulty, please don't post it yourself¯\_(ツ)_/¯ **/
+/** Don't change credits bro i will fix¯\_(ツ)_/¯ **/
 module.exports.config = {
   name: "sad",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN",
+  credits: "AYAN CHOUDHURY",
   description: "SAD VEDIO",
-  commandCategory: "Hình ảnh",
+  commandCategory: "video",
   usages: "sad vedio",
   cooldowns: 5,
   dependencies: {
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["--Kawsar--"];
+   var hi = ["🙂SAD-VIDEO🙂\n \nOwner: AYAN CHOWDHURY🥀"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
