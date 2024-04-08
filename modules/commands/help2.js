@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "help",
+  name: "help2",
   version: "1.0.0",
   hasPermission: 0,
   credits: "Ayan", //  Dont change credits..
   description: "Guide for new users",
   commandCategory: "system",
-  usages: ".help",
+  usages: ".help2",
   cooldowns: 5,
   envConfig: {
     autoUnsend: true,
