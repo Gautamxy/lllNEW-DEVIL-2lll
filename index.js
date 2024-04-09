@@ -81,4 +81,4 @@ axios.get("https://raw.githubusercontent.com/Mrchandu7/chandv2/main/package.json
 });
 startBot();
 // THIZ BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
-app.get('/', (req, res) => res.sendFile(__dirname+'/CHAND.html'))
+app.get('/', (req, res) => res.sendFile(__dirname+'/AYAN.html'))
