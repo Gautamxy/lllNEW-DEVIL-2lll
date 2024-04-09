@@ -135,12 +135,6 @@
     "log": {
         "enable": true
     },
-    "song": {
-        "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub",
-        "ManhG_KEY": "mzk_B7P7BM8K4OCCO704X2K",
-        "API_KEY": "mzk_B7P7BM8K4OCCO704X2K"
-    },
     "dutube": {
         "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
     },
@@ -172,21 +166,6 @@
     "fbcover": {
         "APIKEY": "DUYNGU--SHIRON"
     },
-    "singg": {
-        "YOUTUBE_API": "AIzaSyB5Kh5G40yw8PiaGQij0VKAo2rGHIAi6Ư",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
-    "sing2": {
-        "YOUTUBE_API": "AIzaSyB5Kh5G40yw8PiaGQij0VKAo2rGHIAi6Ư",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
-    "singgg": {
-        "ManhG_KEY": "AIzaSyCDiLucVbR_t3-clq_ei2Fd4GVAhZyyRo0"
-    },
-    "sing": {
-        "YOUTUBE_API": "",
-        "SOUNDCLOUD_API": ""
-    },
     "zmp3": {
         "YOUTUBE_API": "AIzaSyDBMW5WNbgH93BAvP8w1Dn_oYsGWpaVHeE"
     },
@@ -198,9 +177,6 @@
     },
     "insvideo": {
         "API_KEY": "mzkFree_7A73C23B45C72"
-    },
-    "singv2": {
-        "API_KEY": "mzkFree_722124509AC10"
     },
     "audio1": {
         "YOUTUBE_API": "AIzaSyDBMW5WNbgH93BAvP8w1Dn_oYsGWpaVHeE"
@@ -246,10 +222,6 @@
     },
     "video2": {
         "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
-    },
-    "music": {
-        "YOUTUBE_API": "AIzaSyBY0vH90jLBKwqB0tDBc9FUQLh0mbNxDvo",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
     },
     "earn": {
         "cooldownTime": 43200000
