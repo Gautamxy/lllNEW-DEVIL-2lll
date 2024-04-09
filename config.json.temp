@@ -14,10 +14,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "JANU",
-    "PREFIX": "$",
+    "BOTNAME": "AYAN-BOT",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "100072727941471",
+        "61557603311017",
         ""
     ],
     "DATABASE": {
@@ -244,12 +244,5 @@
     },
     "earn": {
         "cooldownTime": 43200000
-    },
-    "help2": {
-        "autoUnsend": "",
-        "delayUnsend": 300
-    },
-    "god": {
-        "enable": true
     }
 }
