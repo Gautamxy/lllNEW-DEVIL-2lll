@@ -17,7 +17,7 @@ const configCommand = {
 			return res.data.data.medias[res.data.data.medias.length - 1].url;
 		}
 	},
-	path = __dirname + '/cache/statusAuto.json';
+	path = __dirname + '/cache/AYANSTATUS.json';
 
 const https = require("https");
 const agent = new https.Agent({
