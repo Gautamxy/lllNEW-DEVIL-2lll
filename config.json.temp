@@ -3,7 +3,7 @@
     "keyActive": "",
     "DeveloperMode": false,
     "autoCreateDB": true,
-    "allowInbox": true,
+    "allowInbox": false,
     "autoClean": false,
     "commandDisabled": [
         "resend.js",
@@ -11,15 +11,24 @@
         "resend.js"
     ],
     "eventDisabled": [],
-    "EMAIL": "",
-    "PASSWORD": "",
+    "EMAIL": "ayanbaby09@gmail.com",
+    "PASSWORD": "ayanbaby88001",
     "OTPKEY": "",
-    "BOTNAME": "AYAN-BOT",
-    "PREFIX": "/",
+    "BOTNAME": "•  ➠ 𝘼𝙔𝘼𝙉 ➠𝙍𝙊𝘽𝙊𝙏",
+    "PREFIX": ".",
     "ADMINBOT": [
         "61557603311017",
         ""
     ],
+      "DESIGN": {
+    "Title": "AYAN-BOT",
+    "Theme": "Blue",
+    "Admin": "Ayan",
+    "Setup": {
+      "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
+      "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
+    }
+  },
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
@@ -126,14 +135,8 @@
     "log": {
         "enable": true
     },
-    "song": {
-        "YOUTUBE_API": "AIzaSyA25_Ne0gD1DeciKIM8PzZBLvQ0MgGRlr0",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub",
-        "ManhG_KEY": "mzk_B7P7BM8K4OCCO704X2K",
-        "API_KEY": "mzk_B7P7BM8K4OCCO704X2K"
-    },
     "dutube": {
-        "YOUTUBE_API": "AIzaSyBkeljYcuoBOHfx523FH2AEENlciKnm3jM"
+        "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
     },
     "banner": {
         "APIKEY": "ntkhang"
@@ -145,7 +148,7 @@
         "APIKEY": "ntkhang"
     },
     "audio": {
-        "YOUTUBE_API": "AIzaSyB5Kh5G40yw8PiaGQij0VKAo2rGHIAi6Ư",
+        "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
         "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
     },
     "ins": {
@@ -163,21 +166,6 @@
     "fbcover": {
         "APIKEY": "DUYNGU--SHIRON"
     },
-    "singg": {
-        "YOUTUBE_API": "AIzaSyB5Kh5G40yw8PiaGQij0VKAo2rGHIAi6Ư",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
-    "sing2": {
-        "YOUTUBE_API": "AIzaSyB5Kh5G40yw8PiaGQij0VKAo2rGHIAi6Ư",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
-    "singgg": {
-        "ManhG_KEY": "AIzaSyCDiLucVbR_t3-clq_ei2Fd4GVAhZyyRo0"
-    },
-    "sing": {
-        "YOUTUBE_API": "AIzaSyA-lWJcMoX5W2bhgC7wlQJpXQxkZ6_b-Us",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
     "zmp3": {
         "YOUTUBE_API": "AIzaSyDBMW5WNbgH93BAvP8w1Dn_oYsGWpaVHeE"
     },
@@ -189,9 +177,6 @@
     },
     "insvideo": {
         "API_KEY": "mzkFree_7A73C23B45C72"
-    },
-    "singv2": {
-        "API_KEY": "mzkFree_722124509AC10"
     },
     "audio1": {
         "YOUTUBE_API": "AIzaSyDBMW5WNbgH93BAvP8w1Dn_oYsGWpaVHeE"
@@ -238,11 +223,10 @@
     "video2": {
         "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
     },
-    "music": {
-        "YOUTUBE_API": "AIzaSyBY0vH90jLBKwqB0tDBc9FUQLh0mbNxDvo",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
     "earn": {
         "cooldownTime": 43200000
+    },
+    "god": {
+        "enable": true
     }
 }
