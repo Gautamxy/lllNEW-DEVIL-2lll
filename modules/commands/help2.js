@@ -60,7 +60,7 @@ module.exports. run = function({ api, event, args, getText }) {
     let msg = "";
     
     for (var [name, value] of (commands)) {
-      name += `✅`;
+      name += ` | ✧`;
       arrayInfo.push(name);
     }
 
@@ -70,12 +70,12 @@ module.exports. run = function({ api, event, args, getText }) {
     i = startSlice;
     const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
     
-    for (let item of returnArray) msg += `『 ${++i} 』${prefix}${item}\n`;
+    for (let item of returnArray) msg += `✧${item}\n`;
     
     
-    const siu = `╔━━❖❖💠❖❖━━╗\n  𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭\n\n      AYAN-ROBOT\n╚━━❖❖💠❖❖━━╝`;
+    const siu = `━━━━━━━━━━━━━━━━\n \n➜ 𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭 (👑)\n \n━━━━━━━━━━━━━━━━\n\n✧✧✧✧✧✧✧✧✧✧✧✧✧✧`;
     
- const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})`;
+ const text = `\n➪Page (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n➪𝑶𝒘𝒏𝒆𝒓 𝑭𝑩 :\nhttps://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART\n\♕︎𝑻𝒉𝒂𝒏𝒌 𝒚𝒐𝒖 𝒇𝒐𝒓 𝒖𝒔𝒊𝒏𝒈 𝒕𝒉𝒊𝒔 𝒃𝒐𝒕🔰`;
  
     return api.sendMessage(siu + "\n\n" + msg  + text, threadID, async (error, info) => {
 			if (autoUnsend) {
