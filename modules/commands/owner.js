@@ -1,9 +1,9 @@
 module.exports.config = {
-	name: "info",
+	name: "owner",
 	version: "1.0.1", 
 	hasPermssion: 0,
 	credits: "AYAN CHOWDHURY",
-	description: "Admin and Bot info.",
+	description: "info",
 	commandCategory: "Owner",
 	cooldowns: 1,
 	dependencies: 
