@@ -18,14 +18,14 @@ module.exports.config = {
 
 module.exports.languages = {
 	"vi": {
-		"moduleInfo": "「 %1 」\n%2\n\n❯ Cách sử dụng: %3\n❯ Nhóm lệnh: %4\n❯ Thời gian chờ: %5 giây(s)\n❯ Quyền hạn: %6\n\n» Code module by %7 «",
+		"moduleInfo": "「 %1 」\n%2\n\n❯ Cách sử dụng: %3\n❯ Nhóm lệnh: %4\n❯ Thời gian chờ: %5 giây(s)\n❯ Quyền hạn: %6\n\n» Code module by AYAN «",
 		"helpList": '[ Hiện tại có %1 lệnh có thể sử dụng trên bot, Sử dụng: "%2help tên_lệnh" để xem chi tiết cách sử dụng! ]',
 		"user": "Người dùng",
 		"adminGroup": "Quản trị viên nhóm",
 		"adminBot": "Quản trị viên bot"
 	},
 	"en": {
-		"moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Cooldown: %5 seconds(s)\n❯ Permission: %6\n\n» Code module by %7 «",
+		"moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Cooldown: %5 seconds(s)\n❯ Permission: %6\n\n» Code module by AYAN «",
 		"helpList": '[ There are %1 commands on this bot, Use: "%2help commandName" to know how to use! ]',
 		"user": "Anyone",
 		"adminGroup": "Admin of group",
