@@ -1,5 +1,5 @@
 {
-    "name": "Ayan Chowdhury",
+    "name": "Mr. Ayan",
     "version": "1.2.14",
     "description": "Facebook Messenger Bot .",
     "main": "mirai.js",
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/giovotinh107/miraibot.git"
+        "url": "git+https://github.com/Ariyan-MA/MR.AYAN"
     },
     "author": "Wind",
     "license": "GPL-3.0",
@@ -59,6 +59,7 @@
         "team-atf-2": "^2.1.0",
         "to-zalgo": "^1.0.1",
         "totp-generator": "",
+        "youtube-search-api": "^1.2.1",
         "ytdl-core": "^4.11.2"
     }
 }
