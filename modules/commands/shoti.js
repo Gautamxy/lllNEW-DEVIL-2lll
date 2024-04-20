@@ -1,3 +1,4 @@
+//**credits Fb id : https://m.me/MR.AYAN.2X **//
 module.exports.config = {
   name: "shoti",
   version: "1.0.0",
@@ -26,7 +27,7 @@ api.sendTypingIndicator(event.threadID, true);
 	const request = require("request");
 	const prompt = args.join(" ");
 
-	if (!prompt[0]) { api.sendMessage("Downloading...", threadID, messageID);
+	if (!prompt[0]) { api.sendMessage("✅𝒑𝒍𝒆𝒂𝒔𝒆 𝒘𝒂𝒊𝒕 𝒅𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝒗𝒊𝒅𝒆𝒐 𝒇𝒐𝒓 𝒚𝒐𝒖...", threadID, messageID);
 		}
 
  try {
@@ -41,7 +42,7 @@ api.sendTypingIndicator(event.threadID, true);
 			 api.setMessageReaction("✅", event.messageID, (err) => {
 					}, true);
 			return api.sendMessage({
-			body: `𝖴𝗌𝖾𝗋𝗇𝖺𝗆𝖾 : @${response.data.data.user.username}\n𝖭𝗂𝖼𝗄𝗇𝖺𝗆𝖾 : ${response.data.data.user.nickname}`, 
+			body: `✅\n𝖴𝗌𝖾𝗋𝗇𝖺𝗆𝖾 : @${response.data.data.user.username}\n𝖭𝗂𝖼𝗄𝗇𝖺𝗆𝖾 : ${response.data.data.user.nickname}`, 
 			attachment: fs.createReadStream(path)
 		}, threadID);
 			}, 5000);
@@ -52,4 +53,4 @@ api.sendTypingIndicator(event.threadID, true);
 	 } catch (err) {
 		api.sendMessage(`Error: ${err}`, threadID, messageID);
 	};
-};
+}; 
