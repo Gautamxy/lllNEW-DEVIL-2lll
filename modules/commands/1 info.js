@@ -25,7 +25,7 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =[
-"https://i.postimg.cc/bwrkYj2n/received-3675005952742250.jpg",
+"https://i.postimg.cc/LXp4CN1T/received-325524310216120.jpg",
 ];
 var callback = () => api.sendMessage({body:` ♛|| Admin and Bot Info ||♛
 
