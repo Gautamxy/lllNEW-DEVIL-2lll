@@ -1,8 +1,8 @@
 module.exports.config = {
-	name: 'anfile',
+	name: 'sentfile',
 	version: '1.0.0',
 	hasPermssion: 2,
-	credits: 'D-Jukie',
+	credits: 'MR.AYAN',//**but MR-NAYAN sendfile sem this cmd**//
 	description: '',
 	commandCategory: 'Admin',
 	usages: 'givefile',
@@ -10,7 +10,7 @@ module.exports.config = {
 }; 
 
 module.exports.run = async ({ args, api, event, Users }) => {
- const permission = ["61557603311017"];
+ const permission = ["61558522534273",""];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Bappa boss only.", event.threadID, event.messageID);
  
