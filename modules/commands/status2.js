@@ -1,12 +1,12 @@
-/** Don't change credits plase **/
+/** Don't change credits please real owner fb I'd : https://m.me/MR.AYAN.2X **/
 module.exports.config = {
   name: "status2",
   version: "1.0.0",
   hasPermssi: 0,
-  credits: "AYAN CHOWDHURY",
-  description: "ISLAMIC VEDIO",
+  credits: "MR.AYAN",
+  description: "RANDOM VEDIO",
   commandCategory: "Hình ảnh",
-  usages: "sad video",
+  usages: "random video",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["💗AYAN VIDEO💗"];
+   var hi = ["✅STATUS VIDEO✅"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
 
