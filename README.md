@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART" target="_blank" rel="noopener noreferrer">
+<p align="center"><a href="https://m.me/MR.AYAN.2X" target="_blank" rel="noopener noreferrer">
   <img src="https://i.imgur.com/oapEhQg.gif" width="50" style="margin-right: 10px;"></a>
 </p>
 <h5 align="center">
@@ -47,16 +47,16 @@
 
 # Editing AYAN CHOWDHURY😘
 
-# AYAN-SUPPER-ROBOT real owner Mohammad Ayan-!!
+# AYAN-SUPPER-ROBOT real owner Mohammad Ayan-!!🥀
 
 # Everyone run this AYAN-ROBOT for fun
 
 # If there is any error, I will fix it by knocking on Facebook
 
-# https://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART
+# https://m.me/MR.AYAN.2X
 
 # I hope you enjoy
 
 # THANK YOU
 
-# 🏎️🏎️🏎️🏎️🏎️🏎️
+# 🥀🥀🥀🥀🥀🥀
