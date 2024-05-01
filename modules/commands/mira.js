@@ -1,12 +1,12 @@
 const axios = require('axios');
 
 module.exports.config = {
-  name: "baby",
+  name: "mira",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOUDHURY",
-  description: ".baby",
-  commandCategory: "baby reply",
+  credits: "MR.AYAN",
+  description: ".mira",
+  commandCategory: "mira reply",
   cooldowns: 1,
   dependencies: {
     "request":"",
@@ -23,7 +23,7 @@ module.exports.run = async ({ api, event, args }) => {
   let final;
   try{
   if(!args[0]){
-    const ran = ["Bolo baby","hum","humm jan bolo"];
+    const ran = ["𝐇𝐞𝐥𝐥𝐨,𝐢 𝐚𝐦 𝐦𝐢𝐫𝐚 𝐤𝐢𝐦\n \n𝐇𝐨𝐰 𝐜𝐚𝐧 𝐢 𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮?","𝐇𝐞𝐥𝐥𝐨,𝐢 𝐚𝐦 𝐦𝐢𝐫𝐚 𝐫𝐨𝐛𝐨𝐭\n\n𝐇𝐨𝐰 𝐜𝐚𝐧  𝐚𝐬𝐬𝐢𝐬𝐭 𝐲𝐨𝐮?"];
     const r = ran[Math.floor(Math.random() * ran.length)];
 return api.sendMessage(r,event.threadID,event.messageID);
   }
@@ -77,7 +77,7 @@ else if (args[0] === 'rm' && dipto.includes('-')) {
         }
         const re = await axios.get(`https://noobs-api.onrender.com/dipto/baby?teach=${final}&reply=${command}`);
         const tex = re.data.message;
-        api.sendMessage(`✅ Replies added ${tex}`, event.threadID, event.messageID);
+        api.sendMessage(`🥀 𝐓𝐞𝐚𝐜𝐡 𝐀𝐝𝐝𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 ${tex}`, event.threadID, event.messageID);
     }
       //-------------------------------------//
 else if (args[0] === 'teach' && args[1] === 'amar'){
@@ -89,7 +89,7 @@ else if (args[0] === 'teach' && args[1] === 'amar'){
         }
         const re = await axios.get(`https://noobs-api.onrender.com/dipto/baby?teach=${final}&senderID=${uid}&reply=${command}`);
         const tex = re.data.message;
-        api.sendMessage(`✅ Replies added ${tex}`, event.threadID, event.messageID);
+        api.sendMessage(`🥀 𝐓𝐞𝐚𝐜𝐡 𝐀𝐝𝐝𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 ${tex}`, event.threadID, event.messageID);
     }
  //-------------------------------------//
     else if (dipto.includes('amar name ki') || dipto.includes('amr nam ki') || dipto.includes('amar nam ki') || dipto.includes('amr name ki')){
