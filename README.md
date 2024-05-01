@@ -39,7 +39,7 @@
 	My Facebook Account ->
 	<a href="https://www.facebook.com/swordigo.swordslush?mibextid=rS40aB7S9Ucbxw6v" style="color: black;">Ayan🚀</a></h3></div>
 
-<img align="center" src="https://i.imgur.com/wovTalh.jpeg"/>
+<img align="center" src="https://i.postimg.cc/fTHMVJGR/Screenshot-2024-05-01-17-14-43-11.jpg"/>
 
 
 🔹Mohammad Ayan
