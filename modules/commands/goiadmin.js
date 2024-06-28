@@ -1,23 +1,22 @@
 module.exports.config = {
   name: "goiadmin",
-  version: "1.0.0",
+  version: "1.0.0-beta-fixbyDungUwU",
   hasPermssion: 0,
-  credits: "AYAN CHOUDHURY",
-  description: "bot admin mention",
+  credits: "ZyrosGenZ-fixbyDungUwU",
+  description: "Bot will rep ng tag admin or rep ng tagbot ",
   commandCategory: "Other",
   usages: "",
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "61557603311017") {
-    var aid = ["61557603311017"];
+  if (event.senderID !== "61552312071816","61552312071816","61552312071816") {
+    var aid = ["61552312071816","61552312071816","61552312071816"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Stop mentioning my creator, he's verry busy..!!😒", "AYAN Boss k mention na diya akta gf khuje deu boss sgl morse..!!😥", "Boss bow niya chipay gese..!!😪","AYAN boss busy ase pore dak diyo..!!😒","boss nai ki bolba amake bolte paro..!!😒"," kicce mention deu kn😒",];
-      api.setMessageReaction("💐", event.messageID, (err) => {}, true);
+      var msg = ["বস, RAIHAN সিংগেল পোলা তাকে একটা GF খুজে দেও😒🥀", "আমার বস RAIHAN কে আর একবার মেনশন দিলে তোমার নাকের মধ্যে ঘুষি মারমু😡", "বস RAIHAN কে আর একবার মেনশন দিলে খবর আছে তোমার, তোমাকে কিন্তু ঘুষি মারমু RAIHAN কে মেনশন দিবা না😠","বস RAIHAN এখন অনেক বিজি তাকে মেনশন দিয়ে ডিস্টার্ব কইরো না 🥰😍😏"," RAIHAN বস এখন অনেক বিজি তাকে মেনশন দিবা না😡😡😡"];
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
 };
 module.exports.run = async function({}) {
-                             }
+}
