@@ -25,7 +25,7 @@ if ((event.body.toLowerCase() == "রায়হান") || (event.body.toLower
      return api.sendMessage("রায়হান বস এখন বিজি আছে জা বলবেন আমাকে বলেন 🥰🥰", threadID);
    };
    
-  if ((event.body.toLowerCase() == "sunny leone") || (event.body.toLowerCase() == "mia khalifa")) {
+  if ((event.body.toLowerCase() == "sunny leon") || (event.body.toLowerCase() == "mia khalifa")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা,,এটা আমার বস রায়হান এর বউ এর নাম..!😠🥰🥀", threadID);
    };
 
@@ -126,8 +126,8 @@ if ((event.body.toLowerCase() == "রায়হান") || (event.body.toLower
      return api.sendMessage("কানা তো কানাই..!!😎", threadID);
    };
    
-   if ((event.body.toLowerCase() == "bot") || (event.body.toLowerCase() == "")) {
-     return api.sendMessage("আমি রায়হান মামারা আত্মা..!!👻☠️", threadID);
+   if ((event.body.toLowerCase() == "raka") || (event.body.toLowerCase() == "রাকা")) {
+     return api.sendMessage("RAKA ম্যাডাম এখন চিপায় আছে, যা বলার আমাকে বলেন আমি RAKA ম্যাডামকে বলে দিবো..!😽", threadID);
    };
 
    if ((event.body.toLowerCase() == "bot go away") || (event.body.toLowerCase() == "bot cut di")) {
