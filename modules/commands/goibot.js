@@ -17,7 +17,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl = ["আমি এখন RAIHAN বস এর সাথে বিজি আছি🙄🙄", "ami raihan Boss er sathe busy achi😑😑", "I love you baby meye hole boss raihan er inbox a jaw🙈🙈"," আমি আবাল দের সাথে কথা বলি না -~ok😒😏", "Love you 3000-😍💋💝", "তোর কি আর কোন কাজ নাই শুধু bot bot করতাছস?🤧🥶","আমাকে না ডেকে আমার বস RAIHAN কে একটা GF খুজে দেন🥰🥰", "আমাকে না দেখে রায়হান বস কে একটা জিএফ দেন 🤧😡"," আবাল বললাম না আমাকে আর ডাকবি না😤🤖 ", "শুনবো না 😐 তুমি আমার বস রায়হানের প্রেম করাই দেও নাই তুমি পচা 😐😑,🙂","তোর কথা তোর বাড়ির কেউ শোনে না তো আমি কেন শুনবো 🐸🙂", "Hmm jan ummah😘😘"," আমি কিন্তু এখন রেগে জাচ্ছি😑🤖","আমি এখন রায়হান বসের সাথে বিজি আছি 🙂🖤","মেয়ে হইলে বেশি bot bot না কইরে রায়হান বসকে I love you বলো 🙈আর ছেলে হলে একটা গার্লফ্রেন্ড খুঁজে দাও : নে রায়হান  বসের আইডির লিংক=> https://www.facebook.com/profile.php?id=100078140734060","amake na deke raihan boss ke akta gf den🙈😽","জি তুমি কি আমাকে ডেকেছো 😇🖤🥀","না আমি জনি সিং🤧🤧","এতো ডাকছিস কেন?গালি শুনবি নাকি? 🤬","আমাকে ডাকবি না আমি এখন গিটার বাজাই 😹😹💦🙊","বস রায়হান সিঙ্গেল পোলা তাকে একটা জিএফ দাও🥹🐰👾","বার বার ডাকলে মাথা গরম হয়ে জায় কিন্তু 😣😖","আমাকে ডেকো না,আমি বস রায়হানের সাথে ব্যাস্ত আছি😤😤","বেশি bot Bot করলে leave নিবো কিন্তু😒😒","কি হলো , মিস্টেক করচ্ছিস নাকি🤣"," baby i love you😍😍","Hop beda😾,Boss বল boss😼","বস রায়হান কে একটা সানি লিওনের মতো জিএফ দেও 😍😾"," Bot না জানু,বলো 😌😌"];
+  var tl = ["আমি এখন রায়হান maমার সাথে বিজি আছি..!!😾", "তোর কি চোখে পড়ে না আমি রায়হান মামার সাথে ব্যাস্ত আছি..!!😒", "I love you baby meye hole boss raihan er inbox a jaw🙈🙈"," আমি আবাল দের সাথে কথা বলি না -~ok😒😏", "Love you 3000-😍💋💝", "তোর কি আর কোন কাজ নাই শুধু bot bot করতাছস?🤧🥶","আমাকে না ডেকে আমার রায়হান মামাকে একটা গার্লফ্রেন্ড খুজে দেও..!!", " আবাল বললাম না আমাকে আর ডাকবি না😤🤖 ", "শুনবো না, তুমি আমার রায়হান মামাকে প্রেম করাই দেও নাই তুমি পচা..!!😒","তোর কথা তোর বাড়ির কেউ শোনে না তো আমি কেন শুনবো..!!🐸🙂", "Hmm jan ummah😘😘"," আমি কিন্তু এখন রেগে জাচ্ছি😑🤖","আমি এখন রায়হান মামার সাথে বিজি আছি 🙂🖤","মেয়ে হইলে বেশি bot bot না কইরে রায়হান বসকে I love you বলো 🙈আর ছেলে হলে একটা গার্লফ্রেন্ড খুঁজে দাও : নে রায়হান  বসের আইডির লিংক=> https://www.facebook.com/profile.php?id=100078140734060","amake na deke raihan boss ke akta gf den🙈😽","জি তুমি কি আমাকে ডেকেছো 😇🖤🥀","না আমি জনি সিং🤧🤧","এতো ডাকছিস কেন?গালি শুনবি নাকি? 🤬","আমাকে ডাকবি না আমি এখন গিটার বাজাই 😹😹💦🙊","বস রায়হান সিঙ্গেল পোলা তাকে একটা জিএফ দাও🥹🐰👾","বার বার ডাকলে মাথা গরম হয়ে জায় কিন্তু 😣😖","আমাকে ডেকো না,আমি রায়হান মামার সাথে ব্যাস্ত আছি..!!😤😤","বেশি bot Bot করলে leave নিবো কিন্তু😒😒","কি হলো , মিস্টেক করচ্ছিস নাকি🤣"," baby i love you😍😍","কি হইছে জান ডাকো কেন..!!😌","শুনতাছি বলো..!!👀"," Bot না জানু,বলো 😌😌"];
  
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
@@ -33,101 +33,101 @@ if ((event.body.toLowerCase() == "রায়হান") || (event.body.toLower
      return api.sendMessage("খবরদার কেউ এই নাম ধরে ডাক দিবা না__ এটা হলো আমার বস রায়হানের কলিজার বেস্ট ফ্রেন্ডের নাম..!🥰🖤🥀", threadID);
    };
    
-    if ((event.body.toLowerCase() == "does bot love you") || (event.body.toLowerCase() == "bot loves you")) {
-     return api.sendMessage("Hi, Bot loves you more than me, love bot <3", threadID);
+    if ((event.body.toLowerCase() == "assalamualaikum") || (event.body.toLowerCase() == "আসসালামু আলাইকুম")) {
+     return api.sendMessage("ওয়ালাইকুম আসসালাম..!😌🩷", threadID);
    };
 
-   if ((event.body.toLowerCase() == "dog bot") || (event.body.toLowerCase() == "dog bot")) {
-     return api.sendMessage("What dog just talked bad about me, want to die😠", threadID);
+   if ((event.body.toLowerCase() == "bot love you") || (event.body.toLowerCase() == "bot i love you")) {
+     return api.sendMessage("i love you too xaan's 🥵🙈", threadID);
    };
   
-   if ((event.body.toLowerCase() == "dmm bot") || (event.body.toLowerCase() == "dmm bot")) {
-     return api.sendMessage("Being disobedient to your biological parents, you say that's a broken person", threadID);
+   if ((event.body.toLowerCase() == "bot kar") || (event.body.toLowerCase() == "kar bot")) {
+     return api.sendMessage("আমাকে রায়হান বস বানাইছে..!!😒🫶", threadID);
    };
 
-   if ((event.body.toLowerCase() == "cursing cmm") || (event.body.toLowerCase() == "undercover cmm")) {
-     return api.sendMessage("Being disobedient to your biological parents, you say that's a broken person", threadID);
+   if ((event.body.toLowerCase() == "good night") || (event.body.toLowerCase() == "gd n8")) {
+     return api.sendMessage("যা যা ঘুমা সারাদিন অনেক টাংকি মারছোস..!!😴😴", threadID);
    };
 
-  if ((event.body.toLowerCase() == "bsvv nha mng") || (event.body.toLowerCase() == "bsvv nha mng")) {
-     return api.sendMessage("Hello dear, have a nice day ❤️", threadID);
+  if ((event.body.toLowerCase() == "good morning") || (event.body.toLowerCase() == "শুভ সকাল")) {
+     return api.sendMessage("good morning.. দাঁত ব্রাশ করে খেয়ে নাও..!!😊🥰", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bsvv nha mn") || (event.body.toLowerCase() == "bsvv nha mn")) {
-     return api.sendMessage("Hello dear, have a nice day ❤️", threadID);
+   if ((event.body.toLowerCase() == "miss you") || (event.body.toLowerCase() == "i miss you")) {
+     return api.sendMessage("আমার রায়হান বস ও আপনাকে মিস করে..!😞🥀", threadID);
    };
 
-   if ((event.body.toLowerCase() == "btvv nha mng") || (event.body.toLowerCase() == "btvv nha mng")) {
-     return api.sendMessage("Hello dear, have a nice day ❤️", threadID);
+   if ((event.body.toLowerCase() == "valobashi") || (event.body.toLowerCase() == "ভালোবাসি")) {
+     return api.sendMessage("রায়হান বস আপনাকে রাইতে ভালোবাসে..!!🙈", threadID);
    };
 
-   if ((event.body.toLowerCase() == "hi ae") || (event.body.toLowerCase() == "hi ae")) {
-     return api.sendMessage("Hello dear, have a nice day ❤️", threadID);
+   if ((event.body.toLowerCase() == "abl") || (event.body.toLowerCase() == "abal")) {
+     return api.sendMessage("তুই আবার তোর চৌদ্দগুষ্টি আবাল..!!🤬", threadID);
    };
 
-   if ((event.body.toLowerCase() == "hiii") || (event.body.toLowerCase() == "hiii")) {
-     return api.sendMessage("Hello dear, have a nice day ❤️", threadID);
+   if ((event.body.toLowerCase() == "Hii") || (event.body.toLowerCase() == "hlw")) {
+     return api.sendMessage("Hii Hlw না দিয়ে সালাম দাও..!!🥰", threadID);
    };
 
-   if ((event.body.toLowerCase() == "btvv nha mn") || (event.body.toLowerCase() == "btvv nha mn")) {
-     return api.sendMessage("Hello dear, have a nice day ❤️", threadID);
+   if ((event.body.toLowerCase() == "😆") || (event.body.toLowerCase() == "🤣")) {
+     return api.sendMessage("ভাই তুই এত হাসিস না হাসলে তোরে চোরের মত লাগে..!🌚🤣", threadID);
    };
 
 
-   if ((event.body.toLowerCase() == "tt go mng") || (event.body.toLowerCase() == "tt go mng")) {
-     return api.sendMessage("️1 is interaction, 2 is kick :))))", threadID);
+   if ((event.body.toLowerCase() == "👍") || (event.body.toLowerCase() == "👎")) {
+     return api.sendMessage("️সর এখান থেকে লাইকার আবাল..!🐸🤣👍⛏️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "let's go") || (event.body.toLowerCase() == "let's go")) {
-     return api.sendMessage("️1 is interaction, 2 is kick :))))", threadID);
+   if ((event.body.toLowerCase() == "🥵") || (event.body.toLowerCase() == "🫦")) {
+     return api.sendMessage("️ এই লুচ্চা এখানে আমি আছি দেখস না লুচ্চামি করছ কেন..!!🤬🤬", threadID);
    };
 
-   if ((event.body.toLowerCase() == "tt mng oi") || (event.body.toLowerCase() == "tt mng oi")) {
-     return api.sendMessage("️1 is interaction, 2 is kick :))))", threadID);
+   if ((event.body.toLowerCase() == "🙈") || (event.body.toLowerCase() == "🤭")) {
+     return api.sendMessage("️ শরম পেয়েন না ম্যাডাম রায়হান বসের ইনবক্সে যান..!!🙈", threadID);
    };
 
-   if ((event.body.toLowerCase() == "nn nha mng") || (event.body.toLowerCase() == "nn nha mng")) {
-     return api.sendMessage("️Sleep well <3 Wish you all super nice dreams <3", threadID);
+   if ((event.body.toLowerCase() == "👀") || (event.body.toLowerCase() == "🫣")) {
+     return api.sendMessage("️ কিরে কানা কি দেখোস..!!😒", threadID);
    };
 
-   if ((event.body.toLowerCase() == "tt go mn") || (event.body.toLowerCase() == "tt go mn")) {
-     return api.sendMessage("️1 is interaction, 2 is kick :))))", threadID);
+   if ((event.body.toLowerCase() == "❤️") || (event.body.toLowerCase() == "💜")) {
+     return api.sendMessage("️ এত ভালবাসা কই পাও  আমার বস রায়হান কে একটু ভালোবাসো..!!🥹🫶", threadID);
    };
 
-   if ((event.body.toLowerCase() == "flop over") || (event.body.toLowerCase() == "flop over")) {
-     return api.sendMessage("️1 is interaction, 2 is kick :))))", threadID);
+   if ((event.body.toLowerCase() == "link") || (event.body.toLowerCase() == "I'd")) {
+     return api.sendMessage("️ লে লো বসের libk https://www.facebook.com/profile.php?id=61552312071816", threadID);
    };
 
-   if ((event.body.toLowerCase() == "clmm bot") || (event.body.toLowerCase() == "clmm bot")) {
-     return api.sendMessage("️Swear something dog :) you've been holding on to you for a long time", threadID);
+   if ((event.body.toLowerCase() == "ami raihan") || (event.body.toLowerCase() == "mui raihan")) {
+     return api.sendMessage("️ওহ, রায়হান মামা কেমন আছেন..!!❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bot cc") || (event.body.toLowerCase() == "bot cc")) {
-     return api.sendMessage("️Swear something dog :) you've been holding on to you for a long time", threadID);
+   if ((event.body.toLowerCase() == "🙄") || (event.body.toLowerCase() == "🙄")) {
+     return api.sendMessage("️ উপরে কি দেখোস, রায়হান বস এইদিকে..!!🙄", threadID);
    };
 
-   if ((event.body.toLowerCase() == "cc bot") || (event.body.toLowerCase() == "cc bot")) {
-     return api.sendMessage("️Swear something dog :) you've been holding on to you for a long time", threadID);
+   if ((event.body.toLowerCase() == "tor boss ke") || (event.body.toLowerCase() == "tor boss kida")) {
+     return api.sendMessage("️𝐨𝐧𝐥𝐲 𝐑𝐚𝐢𝐡𝐚𝐧..!!😘😇", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bot dthw too") || (event.body.toLowerCase() == "bot dthw over")) {
-     return api.sendMessage("️ that's very commendable hihi :>", threadID);
+   if ((event.body.toLowerCase() == "😾") || (event.body.toLowerCase() == "🤬")) {
+     return api.sendMessage("️ রাগ দেখাও কেন, রাগ শরীরের জন্য ভালো না..!!😒", threadID);
    };
   
-   if ((event.body.toLowerCase() == "dm bot") || (event.body.toLowerCase() == "dm bot")) {
-     return api.sendMessage("️Swear something to your dad :), you're a kid but you like to be alive :)", threadID);
+   if ((event.body.toLowerCase() == "💔") || (event.body.toLowerCase() == "break up")) {
+     return api.sendMessage("️ কিরে বলদ কই থেকে ছ্যাকা খেয়ে আসলি..!!💔 :)", threadID);
    };
 
-   if ((event.body.toLowerCase() == "nobody loves me") || (event.body.toLowerCase() == "nobody loves me")) {
-     return api.sendMessage("️Come on, the bot loves you <3 <3", threadID);
+   if ((event.body.toLowerCase() == "😘") || (event.body.toLowerCase() == "😽")) {
+     return api.sendMessage("️ কিস দেস না তোর মুখে অনেক গন্ধ..!🤢", threadID);
    };
 
-   if ((event.body.toLowerCase() == "does the bot love the admin bot") || (event.body.toLowerCase() == "does the bot love the admin bot")) {
-     return api.sendMessage("Yes, love him the most, don't try to rob me", threadID);
+   if ((event.body.toLowerCase() == "😎") || (event.body.toLowerCase() == "🤓")) {
+     return api.sendMessage("কানা তো কানাই..!!😎", threadID);
    };
    
-   if ((event.body.toLowerCase() == "bot im going") || (event.body.toLowerCase() == "bot im di")) {
-     return api.sendMessage("Im cc :))) m stop barking for me, but tell me im :>>", threadID);
+   if ((event.body.toLowerCase() == "bot") || (event.body.toLowerCase() == "")) {
+     return api.sendMessage("আমি রায়হান মামারা আত্মা..!!👻☠️", threadID);
    };
 
    if ((event.body.toLowerCase() == "bot go away") || (event.body.toLowerCase() == "bot cut di")) {
