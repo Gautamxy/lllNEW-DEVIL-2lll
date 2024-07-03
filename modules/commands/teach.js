@@ -1,43 +1,46 @@
-const axios = require("axios");
+const axios = require('axios');
+const jimp = require("jimp");
+const fs = require("fs");
 
-module.exports.config = {
+module.exports.config = { 
   name: "teach",
-  version: "1.0.0",
-  permssion: 0,
-  credits: "AYAN CHOWDHURY",//don’t change the credits please
-  usePrefix: true,
-  description: "Teach AI",
-  commandCategory: " SIM ✅",
-    cooldowns: 2,
+  version: "0.0.2",
+  permission: 0,
+  prefix: 'awto',
+  credits: "Nayan",
+  description: "Teach sim",
+  category: "admin",
+  usages: "hi = hello",
+    cooldowns: 5,
 };
 
-module.exports.run = async function({ api, event, args }) {
-    const { threadID, messageID } = event;
-    const input = args.join(" ").split("-");
+  module.exports.run = async function({ api, event, args, Users, Threads, Currencies}) {
+    const uid = event.senderID;
+    const info = args.join(" ");
+    const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN/Nayan/main/api.json')
+  const teach = apis.data.sim
+    var id = Object.keys(event.mentions)[0] || event.senderID;
+  var nam = await Users.getNameUser(id);
+  var ThreadInfo = await api.getThreadInfo(event.threadID);
+    if (!info) {
+      return api.sendMessage(`Please enter in the format:\n${global.config.PREFIX}teach hi = hello`, event.threadID);
+    } else {
+      const msg = info.split("=");
+      const ask = msg[0].trim();
+      const ans = msg[1].trim();
 
-    if (input.length < 2) {
-        if (args.length === 0) {
-            return api.sendMessage("Usage: teach [𝗔𝘀𝗸] - [𝙍𝙚𝙥𝙤𝙣𝙨𝙚]", threadID);
-        } else if (args.join(" ").includes("-")) {
-            return api.sendMessage("Please provide both a question and an answer.", threadID);
-        } else {
-            return api.sendMessage("Please use '-' character to separate the question and answer.", threadID);
-        }
-    }
 
-    const teachQuery = input[0].trim();
-    const ansQuery = input[1].trim();
+      const img = `${teach}/sim?type=teach&ask=${ask}&ans=${ans}`
+      try {
+        const response = await axios.get(img);
 
-    try {
-        const response = await axios.get(`http://nl2-4.deploy.sbs:2016/sim?teach=${encodeURIComponent(teachQuery)}&ans=${encodeURIComponent(ansQuery)}`);
 
-        if (response.status >= 200 && response.status < 300) {
-            api.sendMessage(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n╏ 𝗔𝘀𝗸 ↣ ${ask}\n \n\n╏ 𝙍𝙚𝙥𝙤𝙣𝙨𝙚 ⇉ ${ans}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${ask}\nANS: ${ans}`, threadID, messageID);
-        } else {
-            api.sendMessage("An error occurred while teaching.", threadID);
-        }
-    } catch (error) {
-        console.error(error);
-        api.sendMessage("An error occurred while fetching the data.", threadID);
-    }
-};
+                api.sendMessage({ 
+          body: `📝Your Data Added To Database Successfully\n1️⃣ASK: ${ask}\n2️⃣ANS: ${ans}`
+                        }, event.threadID);
+                      } catch (error) {
+                        console.error(error);
+                        api.sendMessage("An error occurred while  teach.", event.threadID);
+                      }
+                    }
+                  };
