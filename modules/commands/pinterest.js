@@ -1,37 +1,84 @@
 module.exports.config = {
-    name: "pinterest",
-    version: "1.0.0",
-    hasPermssion: 0,
-    credits: "TEAM-ATF",
-    description: "Image search",
-    commandCategory: "Search",
-    usePrefix: false,
-    usages: "[Text]",
-    cooldowns: 0,
+	name: "pending",
+	version: "1.0.5",
+	credits: "ryuko",
+	prefix: false,
+	permission: 2,
+	description: "approve groups",
+	category: "admin",
+	cooldowns: 5
 };
-module.exports.run = async function({ api, event, args }) {
-    const axios = require("axios");
-    const fs = require("fs-extra");
-    const request = require("request");
-    const keySearch = args.join(" ");
-    if(keySearch.includes("-") == false) return api.sendMessage('Please enter in the format, example: pinterest Naruto - 10 (it depends on you how many images you want to appear in the result)', event.threadID, event.messageID)
-    const keySearchs = keySearch.substr(0, keySearch.indexOf('-'))
-    const numberSearch = keySearch.split("-").pop() || 6
-    const res = await axios.get(`https://api-dien.kira1011.repl.co/pinterest?search=${encodeURIComponent(keySearchs)}`);
-    const data = res.data.data;
-    var num = 0;
-    var imgData = [];
-    for (var i = 0; i < parseInt(numberSearch); i++) {
-      let path = __dirname + `/cache/${num+=1}.jpg`;
-      let getDown = (await axios.get(`${data[i]}`, { responseType: 'arraybuffer' })).data;
-      fs.writeFileSync(path, Buffer.from(getDown, 'utf-8'));
-      imgData.push(fs.createReadStream(__dirname + `/cache/${num}.jpg`));
+
+module.exports.languages = {
+    "vi": {
+        "invaildNumber": "%1 không phải là một con số hợp lệ",
+        "cancelSuccess": "dã từ chối thành công %1 nhóm!",
+        "notiBox": "box của bạn đã được admin phê duyệt để có thể sử dụng bot",
+        "approveSuccess": "dã phê duyệt thành công %1 nhóm!",
+
+        "cantGetPendingList": "không thể lấy danh sách các nhóm đang chờ!",
+        "returnListPending": "tổng số nhóm cần duyệt : %1 nhóm \n\n%2",
+        "returnListClean": "「PENDING」Hiện tại không có nhóm nào trong hàng chờ"
+    },
+    "en": {
+        "invaildNumber": "%1 is not an invalid number",
+        "cancelSuccess": "refused %1 thread",
+        "notiBox": "group has been approved, you can now use the bot",
+        "approveSuccess": "approved successfully %1 threads",
+
+        "cantGetPendingList": "can't get the pending list",
+        "returnListPending": "the whole number of groups to approve is : %1 thread \n\n%2",
+        "returnListClean": "there is no group in the pending list"
     }
-    api.sendMessage({
-        attachment: imgData,
-        body: numberSearch + 'Search results for keyword: '+ keySearchs
-    }, event.threadID, event.messageID)
-    for (let ii = 1; ii < parseInt(numberSearch); ii++) {
-        fs.unlinkSync(__dirname + `/cache/${ii}.jpg`)
+}
+
+module.exports.handleReply = async function({ api, event, handleReply, getText }) {
+    if (String(event.senderID) !== String(handleReply.author)) return;
+    const { body, threadID, messageID } = event;
+    var count = 0;
+
+    if (isNaN(body) && body.indexOf("c") == 0 || body.indexOf("cancel") == 0) {
+        const index = (body.slice(1, body.length)).split(/\s+/);
+        for (const singleIndex of index) {
+            console.log(singleIndex);
+            if (isNaN(singleIndex) || singleIndex <= 0 || singleIndex > handleReply.pending.length) return api.sendMessage(getText("invaildNumber", singleIndex), threadID, messageID);
+            api.removeUserFromGroup(api.getCurrentUserID(), handleReply.pending[singleIndex - 1].threadID);
+            count+=1;
+        }
+        return api.sendMessage(getText("cancelSuccess", count), threadID, messageID);
     }
-};
+    else {
+        const index = body.split(/\s+/);
+        for (const singleIndex of index) {
+            if (isNaN(singleIndex) || singleIndex <= 0 || singleIndex > handleReply.pending.length) return api.sendMessage(getText("invaildNumber", singleIndex), threadID, messageID);
+            api.sendMessage(getText("notiBox"), handleReply.pending[singleIndex - 1].threadID);
+            count+=1;
+        }
+        return api.sendMessage(getText("approveSuccess", count), threadID, messageID);
+    }
+}
+
+module.exports.run = async function({ api, event, getText }) {
+	const { threadID, messageID } = event;
+    const commandName = this.config.name;
+    var msg = "", index = 1;
+
+    try {
+		var spam = await api.getThreadList(100, null, ["OTHER"]) || [];
+		var pending = await api.getThreadList(100, null, ["PENDING"]) || [];
+	} catch (e) { return api.sendMessage(getText("cantGetPendingList"), threadID, messageID) }
+
+	const list = [...spam, ...pending].filter(group => group.isSubscribed && group.isGroup);
+
+    for (const single of list) msg += `${index++}/ ${single.name}(${single.threadID})\n`;
+
+    if (list.length != 0) return api.sendMessage(getText("returnListPending", list.length, msg), threadID, (error, info) => {
+		global.client.handleReply.push({
+            name: commandName,
+            messageID: info.messageID,
+            author: event.senderID,
+            pending: list
+        })
+	}, messageID);
+    else return api.sendMessage(getText("returnListClean"), threadID, messageID);
+}
