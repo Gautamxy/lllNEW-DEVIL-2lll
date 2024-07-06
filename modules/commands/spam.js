@@ -14,9 +14,9 @@ module.exports.config = {
 };
 
 module.exports.run = function ({ api, event, Users, args }) {
-  const permission = ["61558522534273"];
+  const permission = ["61552312071816"];
    if (!permission.includes(event.senderID))
-   return api.sendMessage("⚠️ | Only Bot Admin Can Use 😒 this command..", event.threadID, event.messageID);
+   return api.sendMessage("এই command টা শুধু আমার বস রায়হান এর জন্য-⚠️", event.threadID, event.messageID);
   if (args.length !== 2) {
     api.sendMessage(`use this cmd: ${global.config.PREFIX}spam [TXT] [AMOUNT]`, event.threadID);
     return;
