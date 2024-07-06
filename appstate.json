@@ -1,128 +1,43 @@
-[
-    {
-        "key": "dbln",
-        "value": "%7B%2261561480954677%22%3A%22vwGBUFNh%22%2C%2261562039193203%22%3A%22vrVv5MCu%22%7D",
-        "domain": "facebook.com",
-        "path": "/login/device-based/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "datr",
-        "value": "H7t-ZoqE6EgL-XsETO-8HZNh",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "sb",
-        "value": "H7t-ZhUDWvCjsGHeF-UgWEm9",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "vpd",
-        "value": "v1%3B764x393x2.225780963897705",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "ps_n",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "ps_l",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "locale",
-        "value": "en_GB",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "m_pixel_ratio",
-        "value": "2.225780963897705",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "wd",
-        "value": "486x944",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.136Z"
-    },
-    {
-        "key": "c_user",
-        "value": "61562039193203",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.136Z",
-        "lastAccessed": "2024-07-06T18:17:23.137Z"
-    },
-    {
-        "key": "xs",
-        "value": "29%3AtJYrXzL7nLfBww%3A2%3A1720289530%3A-1%3A-1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.137Z",
-        "lastAccessed": "2024-07-06T18:17:23.137Z"
-    },
-    {
-        "key": "fr",
-        "value": "0YwtzWVNFkWEAXPeH.AWUU6Q7H1sC8ZblaQRQc9ni38mk.Bmfrsf..AAA.0.0.BmiYj6.AWXhGKktK48",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.137Z",
-        "lastAccessed": "2024-07-06T18:17:23.137Z"
-    },
-    {
-        "key": "fbl_st",
-        "value": "100620793%3BT%3A28671493",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.137Z",
-        "lastAccessed": "2024-07-06T18:17:23.137Z"
-    },
-    {
-        "key": "wl_cbv",
-        "value": "v2%3Bclient_version%3A2552%3Btimestamp%3A1720289537",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-07-06T18:17:23.137Z",
-        "lastAccessed": "2024-07-06T18:17:23.137Z"
+const axios = require("axios");
+
+module.exports.config = {
+  name: "teach",
+  version: "1.0.0",
+  permssion: 0,
+  credits: "AYAN CHOWDHURY",//don’t change the credits please
+  usePrefix: true,
+  description: "Teach AI",
+  commandCategory: " SIM ✅",
+    cooldowns: 2,
+};
+
+module.exports.run = async function({ api, event, args }) {
+    const { threadID, messageID } = event;
+    const input = args.join(" ").split("-");
+
+    if (input.length < 2) {
+        if (args.length === 0) {
+            return api.sendMessage("Usage: teach [𝗔𝘀𝗸] - [𝙍𝙚𝙥𝙤𝙣𝙨𝙚]", threadID);
+        } else if (args.join(" ").includes("-")) {
+            return api.sendMessage("Please provide both a question and an answer.", threadID);
+        } else {
+            return api.sendMessage("Please use '-' character to separate the question and answer.", threadID);
+        }
     }
-]
+
+    const teachQuery = input[0].trim();
+    const ansQuery = input[1].trim();
+
+    try {
+        const response = await axios.get(`http://nl2-4.deploy.sbs:2016/sim?teach=${encodeURIComponent(teachQuery)}&ans=${encodeURIComponent(ansQuery)}`);
+
+        if (response.status >= 200 && response.status < 300) {
+            api.sendMessage(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n╏ 𝗔𝘀𝗸 ↣ ${ask}\n \n\n╏ 𝙍𝙚𝙥𝙤𝙣𝙨𝙚 ⇉ ${ans}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${ask}\nANS: ${ans}`, threadID, messageID);
+        } else {
+            api.sendMessage("An error occurred while teaching.", threadID);
+        }
+    } catch (error) {
+        console.error(error);
+        api.sendMessage("An error occurred while fetching the data.", threadID);
+    }
+};
