@@ -26,9 +26,9 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
-        return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🚀AYAN-ROBOT PREFIX ⇉ [ ${prefix} ]`)
+        return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🚀RAIHAN-ROBOT PREFIX ⇉ [ ${prefix} ]`)
       }
-      else return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🛸AYAN-ROBOT PREFIX  ⇉ 👉🏻 [ ${prefix} ]  `    + data.PREFIX )
+      else return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🛸RAIHAN-ROBOT PREFIX  ⇉ 👉🏻 [ ${prefix} ]  `    + data.PREFIX )
     }
 
   });
