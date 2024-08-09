@@ -1,5 +1,3 @@
-// Fix by Mohammad Nayan. Dont Change Credit
-
 
 const fs = require('fs');
 const ytdl = require('ytdl-core');
