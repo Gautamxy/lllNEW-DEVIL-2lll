@@ -1,16 +1,18 @@
-/** Đổi Credit ? Bọn t đã không mã hóa cho mà edit rồi thì tôn trọng nhau tý đi ¯\_(ツ)_/¯ **/
+/** Don't change Credit...AYAN is real owner...Fb: https://m.me/MR.AYAN.2X**/
 module.exports.config = {
-  name: `${global.config.PREFIX}`,
-  version: "1.0.0", 
-  permission: 0,
-  credits: "nayan",
-  description: "", 
-  prefix: true,
-  category: "user",
-  usages: "",
-  cooldowns: 5, 
+  name: "\n",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "AYAN",
+  description: "command",
+  commandCategory: "prefix reply",
+  usages: "ig",
+  cooldowns: 11,
   dependencies: {
-	}
+    "request":"",
+    "fs-extra":"",
+    "axios":""
+  }
 };
 
 module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currencies}) => {
