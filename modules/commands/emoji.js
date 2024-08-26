@@ -1,1 +1,83 @@
-var _0xb4f1=["\x63\x6F\x6E\x66\x69\x67","\x65\x78\x70\x6F\x72\x74\x73","\x65\x6D\x6F\x6A\x69","\x31\x2E\x30\x2E\x30","\x4D\x52\x20\x43\x48\x41\x4E\x44","\x45\x6E\x63\x72\x79\x70\x74\x20\x6D\x65\x73\x73\x61\x67\x65\x73\x20\x74\x6F\x20\x45\x6D\x6F\x6A\x69\x20\x61\x6E\x64\x20\x76\x69\x63\x65\x20\x76\x65\x72\x73\x61","\x54\x6F\x6F\x6C","\x65\x6D\x6F\x6A\x69\x74\x72\x6F\x6C\x6C\x20\x65\x6E\x20\x3C\x74\x65\x78\x74\x3E\x0A\x6F\x72\x0A\x65\x6D\x6F\x6A\x69\x74\x72\x6F\x6C\x6C\x20\x64\x65\x20\x3C\x74\x65\x78\x74\x3E","\x72\x75\x6E","\x20","\x6A\x6F\x69\x6E","\x73\x6C\x69\x63\x65","\x65\x6E\x63\x6F\x64\x65","\x65\x6E","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\uD83D\uDE00","\x72\x65\x70\x6C\x61\x63\x65","\uD83D\uDE03","\uD83D\uDE01","\uD83D\uDE05","\uD83E\uDD70","\uD83E\uDD23","\uD83E\uDD72","\u263A\uFE0F","\uD83D\uDE0A","\uD83D\uDE07","\uD83D\uDE09","\uD83D\uDE12","\uD83D\uDE1E","\uD83D\uDE19","\uD83D\uDE1F","\uD83D\uDE15","\uD83D\uDE42","\uD83D\uDE43","\u2639\uFE0F","\uD83D\uDE21","\uD83D\uDE0D","\uD83D\uDE29","\uD83D\uDE2D","\uD83D\uDE33","\uD83D\uDE20","\x2E","","\x74\x68\x72\x65\x61\x64\x49\x44","\x6D\x65\x73\x73\x61\x67\x65\x49\x44","\x73\x65\x6E\x64\x4D\x65\x73\x73\x61\x67\x65","\x64\x65\x63\x6F\x64\x65","\x64\x65","\x61","\x62","\x63","\x64","\x65","\x66","\x67","\x68","\x69","\x6B","\x6C","\x6D","\x6E","\x6F","\x70","\x71","\x72","\x73","\x74","\x75","\x76","\x78","\x79","\x77","\x7A","\x57\x72\x6F\x6E\x67\x20\x73\x79\x6E\x74\x61\x78\x0A\x65\x6D\x6F\x6A\x69\x20\x65\x6E\x20\x3C\x74\x65\x78\x74\x3E\x0A\x2C\x6F\x72\x0A\x65\x6D\x6F\x6A\x69\x20\x64\x65\x20\x3C\x74\x65\x78\x74\x3E"];module[_0xb4f1[1]][_0xb4f1[0]]= {name:_0xb4f1[2],version:_0xb4f1[3],hasPermssion:0,credits:_0xb4f1[4],description:_0xb4f1[5],commandCategory:_0xb4f1[6],usages:_0xb4f1[7],cooldowns:5};module[_0xb4f1[1]][_0xb4f1[8]]= async ({event,api,args})=>{var text=args[_0xb4f1[11]](1)[_0xb4f1[10]](_0xb4f1[9]);var type=args[0];if(type== _0xb4f1[12]|| type== _0xb4f1[13]){text= text[_0xb4f1[14]]();text= text[_0xb4f1[16]](/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ|a/g,_0xb4f1[15]);text= text[_0xb4f1[16]](/b/g,_0xb4f1[17]);text= text[_0xb4f1[16]](/c/g,_0xb4f1[18]);text= text[_0xb4f1[16]](/đ|d/g,_0xb4f1[19]);text= text[_0xb4f1[16]](/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ|e/g,_0xb4f1[20]);text= text[_0xb4f1[16]](/f/g,_0xb4f1[21]);text= text[_0xb4f1[16]](/g/g,_0xb4f1[22]);text= text[_0xb4f1[16]](/h/g,_0xb4f1[23]);text= text[_0xb4f1[16]](/ì|í|ị|ỉ|ĩ|i/g,_0xb4f1[24]);text= text[_0xb4f1[16]](/k/g,_0xb4f1[25]);text= text[_0xb4f1[16]](/l/g,_0xb4f1[26]);text= text[_0xb4f1[16]](/m/g,_0xb4f1[27]);text= text[_0xb4f1[16]](/n/g,_0xb4f1[28]);text= text[_0xb4f1[16]](/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ|o/g,_0xb4f1[29]);text= text[_0xb4f1[16]](/p/g,_0xb4f1[30]);text= text[_0xb4f1[16]](/q/g,_0xb4f1[31]);text= text[_0xb4f1[16]](/r/g,_0xb4f1[32]);text= text[_0xb4f1[16]](/s/g,_0xb4f1[33]);text= text[_0xb4f1[16]](/t/g,_0xb4f1[34]);text= text[_0xb4f1[16]](/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ|u/g,_0xb4f1[35]);text= text[_0xb4f1[16]](/v/g,_0xb4f1[36]);text= text[_0xb4f1[16]](/x/g,_0xb4f1[37]);text= text[_0xb4f1[16]](/ỳ|ý|ỵ|ỷ|ỹ|y/g,_0xb4f1[38]);text= text[_0xb4f1[16]](/w/g,_0xb4f1[39]);text= text[_0xb4f1[16]](/z/g,_0xb4f1[40]);text= text[_0xb4f1[16]](/ /g,_0xb4f1[41]);text= text[_0xb4f1[16]](/\u0300|\u0301|\u0303|\u0309|\u0323/g,_0xb4f1[42]);text= text[_0xb4f1[16]](/\u02C6|\u0306|\u031B/g,_0xb4f1[42]);return api[_0xb4f1[45]](text,event[_0xb4f1[43]],event[_0xb4f1[44]])}else {if(type== _0xb4f1[46]|| type== _0xb4f1[47]){text= text[_0xb4f1[14]]();text= text[_0xb4f1[16]](/😀/g,_0xb4f1[48]);text= text[_0xb4f1[16]](/😃/g,_0xb4f1[49]);text= text[_0xb4f1[16]](/😁/g,_0xb4f1[50]);text= text[_0xb4f1[16]](/😅/g,_0xb4f1[51]);text= text[_0xb4f1[16]](/🥰/g,_0xb4f1[52]);text= text[_0xb4f1[16]](/🤣/g,_0xb4f1[53]);text= text[_0xb4f1[16]](/🥲/g,_0xb4f1[54]);text= text[_0xb4f1[16]](/☺️/g,_0xb4f1[55]);text= text[_0xb4f1[16]](/😊/g,_0xb4f1[56]);text= text[_0xb4f1[16]](/😇/g,_0xb4f1[57]);text= text[_0xb4f1[16]](/😉/g,_0xb4f1[58]);text= text[_0xb4f1[16]](/😒/g,_0xb4f1[59]);text= text[_0xb4f1[16]](/😞/g,_0xb4f1[60]);text= text[_0xb4f1[16]](/😙/g,_0xb4f1[61]);text= text[_0xb4f1[16]](/😟/g,_0xb4f1[62]);text= text[_0xb4f1[16]](/😕/g,_0xb4f1[63]);text= text[_0xb4f1[16]](/🙂/g,_0xb4f1[64]);text= text[_0xb4f1[16]](/🙃/g,_0xb4f1[65]);text= text[_0xb4f1[16]](/☹️/g,_0xb4f1[66]);text= text[_0xb4f1[16]](/😡/g,_0xb4f1[67]);text= text[_0xb4f1[16]](/😍/g,_0xb4f1[68]);text= text[_0xb4f1[16]](/😩/g,_0xb4f1[69]);text= text[_0xb4f1[16]](/😭/g,_0xb4f1[70]);text= text[_0xb4f1[16]](/😳/g,_0xb4f1[71]);text= text[_0xb4f1[16]](/😠/g,_0xb4f1[72]);text= text[_0xb4f1[16]](/\./g,_0xb4f1[9]);return api[_0xb4f1[45]](text,event[_0xb4f1[43]],event[_0xb4f1[44]])}else {return api[_0xb4f1[45]](_0xb4f1[73],event[_0xb4f1[43]],event[_0xb4f1[44]])}}}
+module.exports.config = {
+    name: "emoji",
+    version: "1.0.0",
+    hasPermssion: 0,
+    credits: "NTKhang",
+    description: "Encrypt messages to Emoji and vice versa",
+    commandCategory: "Tool",
+    usages: "emojitroll en <text>\nor\nemojitroll de <text>",
+    cooldowns: 5
+};
+
+module.exports.run = async ({ event, api, args }) => {
+    var text = args.slice(1).join(" ");
+    var type = args[0];
+        if (type == 'encode' || type == "en") {
+            text = text.toLowerCase();
+            text = text.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ|a/g, "😀");
+            text = text.replace(/b/g, "😃");
+            text = text.replace(/c/g, "😁");
+            text = text.replace(/đ|d/g, "😅");
+            text = text.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ|e/g, "🥰");
+            text = text.replace(/f/g, "🤣");
+            text = text.replace(/g/g, "🥲");
+            text = text.replace(/h/g, "☺️");
+            text = text.replace(/ì|í|ị|ỉ|ĩ|i/g, "😊");
+            // There's no letter "j", I don't understand why
+            text = text.replace(/k/g, "😇");
+            text = text.replace(/l/g, "😉");
+            text = text.replace(/m/g, "😒");
+            text = text.replace(/n/g, "😞");
+            text = text.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ|o/g, "😙");
+            text = text.replace(/p/g, "😟");
+            text = text.replace(/q/g, "😕");
+            text = text.replace(/r/g, "🙂");
+            text = text.replace(/s/g, "🙃");
+            text = text.replace(/t/g, "☹️");
+            text = text.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ|u/g, "😡");
+            text = text.replace(/v/g, "😍");
+            text = text.replace(/x/g, "😩");
+            text = text.replace(/ỳ|ý|ỵ|ỷ|ỹ|y/g, "😭");
+            text = text.replace(/w/g, "😳");
+            text = text.replace(/z/g, "😠");
+            text = text.replace(/ /g, "."); // Replace space with dot
+ 
+            // Some system encode Vietnamese combining accent as individual utf-8 characters
+            text = text.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, ""); // Huyền sắc hỏi ngã nặng
+            text = text.replace(/\u02C6|\u0306|\u031B/g, ""); // Â, Ê, Ă, Ơ, Ư
+            return api.sendMessage(text, event.threadID, event.messageID);
+        }
+        else if (type == 'decode' || type == "de") {
+            text = text.toLowerCase();
+            text = text.replace(/😀/g, "a");
+            text = text.replace(/😃/g, "b");
+            text = text.replace(/😁/g, "c");
+            text = text.replace(/😅/g, "d");
+            text = text.replace(/🥰/g, "e");
+            text = text.replace(/🤣/g, "f");
+            text = text.replace(/🥲/g, "g");
+            text = text.replace(/☺️/g, "h");
+            text = text.replace(/😊/g, "i");
+            // There's no letter "j", I don't understand why
+            text = text.replace(/😇/g, "k");
+            text = text.replace(/😉/g, "l");
+            text = text.replace(/😒/g, "m");
+            text = text.replace(/😞/g, "n");
+            text = text.replace(/😙/g, "o");
+            text = text.replace(/😟/g, "p");
+            text = text.replace(/😕/g, "q");
+            text = text.replace(/🙂/g, "r");
+            text = text.replace(/🙃/g, "s");
+            text = text.replace(/☹️/g, "t");
+            text = text.replace(/😡/g, "u");
+            text = text.replace(/😍/g, "v");
+            text = text.replace(/😩/g, "x");
+            text = text.replace(/😭/g, "y");
+            text = text.replace(/😳/g, "w");
+            text = text.replace(/😠/g, "z");
+            text = text.replace(/\./g, ' '); // Replace dot with space
+            return api.sendMessage(text, event.threadID, event.messageID);
+        }
+        else {return api.sendMessage("Wrong syntax\nemoji en <text>\n,or\nemoji de <text>", event.threadID, event.messageID)}
+  
+              }

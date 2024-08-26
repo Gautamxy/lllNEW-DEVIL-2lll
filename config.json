@@ -10,11 +10,11 @@
     "EMAIL": "mohammadayan55505@gmail.com",
     "PASSWORD": "ayanfcal22",
     "OTPKEY": "",
-    "BOTNAME": "botnickname",
-    "PREFIX": "Bot-prefix",
+    "BOTNAME": "⎯͢⎯⃝🩵𝐗𝐀𝐈𝐊𝐎 𝐑𝐀𝐈𝐇𝐀𝐍 𝐁𝐎𝐓⎯͢⎯⃝🤖",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "USERID1",
-        "USERID2"
+        "61552312071816",
+        "100089635206750"
     ],
     "DATABASE": {
         "sqlite": {

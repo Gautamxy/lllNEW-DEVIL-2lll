@@ -1,12 +1,13 @@
 module.exports.config = {
-  name: 'adduser',
-  version: '1.0.0',
-  credits: 'AYAN',
-  hasPermssion: 2,
-  description: 'group bot add',
-  commandCategory: 'Admin',
-  usages: '...',
-  cooldowns: 5
+    name: "adduser",
+    version: "1.0.0",
+    permssion: 0,
+    credits: "D-Jukie",
+    description: "Thêm người dùng vào nhóm bằng link hoặc UID",
+  prefix: true,
+    category: "Box chat",
+    usages: "< link/UID >",
+    cooldowns: 5
 };
 module.exports.run = async function ({ api, event, args, Threads, Users }) {
 const { threadID, messageID } = event;
