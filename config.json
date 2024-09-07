@@ -13,8 +13,8 @@
     "BOTNAME": "DEVIL",
     "PREFIX": "#",
     "ADMINBOT": [
-        "USERID1",
-        "USERID2"
+        "100088657637623",
+        ""
     ],
     "DATABASE": {
         "sqlite": {
